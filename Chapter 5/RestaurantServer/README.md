@@ -11,3 +11,6 @@ ToDo:
 - Way to change the default port
 
 V1.0 April 2, 2018
+J.A. Korten
+HAN University of Applied Sciences
+johan.korten@han.nl
