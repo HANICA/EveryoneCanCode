@@ -9,3 +9,5 @@ ToDo:
 - Better console functionality
 - Automatically opening page of server
 - Way to change the default port
+
+V1.0 April 2, 2018
