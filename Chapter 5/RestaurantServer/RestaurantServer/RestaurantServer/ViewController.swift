@@ -22,12 +22,12 @@ class ViewController: NSViewController {
         
         // Do any additional setup after loading the view.
         self.appDelegate.mainVC = self
-        self.appDelegate.loadJSONFromBundle()
-        self.appDelegate.startServer()
-
-        //let font = NSFont(name: "Consolas", size: 12)
         
-        self.mainTitleLabel.stringValue = "Server is live at http://localhost:\(appDelegate.serverPort)"
+        self.appDelegate.loadData()
+        
+        self.appDelegate.startServer()        
+        
+        self.mainTitleLabel.stringValue = "Server is live at http://localhost:\(self.appDelegate.settings.serverPort)"
         
     }
     
