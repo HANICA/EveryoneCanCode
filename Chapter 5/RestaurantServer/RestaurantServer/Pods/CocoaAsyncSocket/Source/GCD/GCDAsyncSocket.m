@@ -1114,7 +1114,7 @@ enum GCDAsyncSocketConfig
 		__block id result;
 		
 		dispatch_sync(socketQueue, ^{
-			result = self.delegate;
+			result = delegate;
 		});
 		
 		return result;
@@ -1124,7 +1124,7 @@ enum GCDAsyncSocketConfig
 - (void)setDelegate:(id)newDelegate synchronously:(BOOL)synchronously
 {
 	dispatch_block_t block = ^{
-		self.delegate = newDelegate;
+		delegate = newDelegate;
 	};
 	
 	if (dispatch_get_specific(IsOnSocketQueueOrTargetQueueKey)) {
@@ -1159,7 +1159,7 @@ enum GCDAsyncSocketConfig
 		__block dispatch_queue_t result;
 		
 		dispatch_sync(socketQueue, ^{
-			result = self->delegateQueue;
+			result = delegateQueue;
 		});
 		
 		return result;
@@ -1171,11 +1171,11 @@ enum GCDAsyncSocketConfig
 	dispatch_block_t block = ^{
 		
 		#if !OS_OBJECT_USE_OBJC
-        if (self->delegateQueue) dispatch_release(self->delegateQueue);
+		if (delegateQueue) dispatch_release(delegateQueue);
 		if (newDelegateQueue) dispatch_retain(newDelegateQueue);
 		#endif
 		
-		self.delegateQueue = newDelegateQueue;
+		delegateQueue = newDelegateQueue;
 	};
 	
 	if (dispatch_get_specific(IsOnSocketQueueOrTargetQueueKey)) {
@@ -1212,8 +1212,8 @@ enum GCDAsyncSocketConfig
 		__block dispatch_queue_t dqPtr = NULL;
 		
 		dispatch_sync(socketQueue, ^{
-            dPtr = self->delegate;
-			dqPtr = self->delegateQueue;
+			dPtr = delegate;
+			dqPtr = delegateQueue;
 		});
 		
 		if (delegatePtr) *delegatePtr = dPtr;

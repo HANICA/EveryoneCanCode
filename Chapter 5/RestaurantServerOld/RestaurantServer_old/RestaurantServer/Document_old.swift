@@ -6,6 +6,7 @@
 //  Copyright © 2018 HAN University of Applied Sciences. All rights reserved.
 //
 
+/*
 import Cocoa
 
 class Document: NSDocument {
@@ -41,4 +42,4 @@ class Document: NSDocument {
 
 
 }
-
+*/

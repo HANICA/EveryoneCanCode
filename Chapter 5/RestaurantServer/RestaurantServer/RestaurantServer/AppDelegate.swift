@@ -1,8 +1,9 @@
 //
 //  AppDelegate.swift
-//  RestaurantServerApp
+//  RestaurantServer
 //
-//  Created by J.A. Korten on 30-03-18.
+//  Created by J.A. Korten on 04-04-18.
+//  Copyright © 2018 HAN University of Applied Sciences. All rights reserved.
 //
 
 import Cocoa
@@ -22,11 +23,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-    
+        
     }
     
     func loadData() {
         loadJSONSettingsFromBundle()
+        reloadData()
+    }
+    
+    func reloadData() {
+        // will load or reload the menu data)
         loadJSONFromBundle()
         checkJSONFile(fileName: "menu", fileExtension: "json")
     }
@@ -51,7 +57,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         } catch {
             addMessageToConsole("Could not start server...")
         }
-
+        
     }
     
     func showMenu(request: HTTPRequest) -> HTTPResponse {

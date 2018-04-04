@@ -2,7 +2,7 @@
 //  RestaurantServerUITests.swift
 //  RestaurantServerUITests
 //
-//  Created by J.A. Korten on 03-04-18.
+//  Created by J.A. Korten on 04-04-18.
 //  Copyright © 2018 HAN University of Applied Sciences. All rights reserved.
 //
 
