@@ -1,6 +1,0 @@
-framework module Pods_RestaurantServerTests {
-  umbrella header "Pods-RestaurantServerTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

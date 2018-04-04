@@ -1,7 +1,0 @@
-platform :ios, '8.0' # links Foundation.framework for targets
-
-target 'RestaurantServer' do
-  use_frameworks!
-
-end
-
