@@ -14,7 +14,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var mainVC : NSViewController?
     
     let serverHTTP = Server()
-    //var serverPort : UInt16 = 8080
     
     var _jsonString : String?
     
@@ -23,8 +22,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        
-
+    
     }
     
     func loadData() {

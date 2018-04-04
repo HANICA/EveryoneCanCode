@@ -76,12 +76,49 @@ class ViewController: NSViewController {
     @IBAction func showCategories(_ sender: NSButton) {
         
         appDelegate.addMessageToConsole("Menu categories: \(appDelegate.restaurant.getCategoryArray() ?? [" not found..."])")
+        
+        let url = NSURL(string: "http://localhost:\(appDelegate.settings.serverPort)/categories/")!
+        NSWorkspace.shared.open(url as URL)
     }
     
     @IBAction func showMenuItems(_ sender: NSButton) {
         appDelegate.addMessageToConsole("Menu items: \(appDelegate.restaurant.getMenuAsString())")
+        let url = NSURL(string: "http://localhost:\(appDelegate.settings.serverPort)/menu/")!
+        NSWorkspace.shared.open(url as URL)
     }
     
+    @IBAction func openMenuItemsJSON(_ sender: Any) {
+        
+        let documentController = NSDocumentController.shared
+        
+        let fileManager = FileManager.default
+        
+        let fileName = "menu" + "." + "json"
+        
+        let appSupportPath = (fileManager.urls(for: .applicationSupportDirectory, in: .userDomainMask).first)!
+        
+        //let directoryURL = FileManager.default.urls(for: .desktopDirectory, in: .userDomainMask).first
+        
+       // let docURL = URL(string: fileName, relativeTo:appSupportPath)
+        
+        NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: appSupportPath.path)
+        
+        /*
+        documentController.openDocument(withContentsOf: docURL!, display: true) {
+            // completionHandler (NSDocument?, Bool, Error?)
+            (document, documentWasAlreadyOpen, error) in
+            if error != nil
+            { print("An error occured: \(error)")
+            } else {
+                if documentWasAlreadyOpen
+                {
+                    print("documentWasAlreadyOpen: true")
+                } else {
+                    print("documentWasAlreadyOpen: false")
+                }
+            }
+        }*/
+    }
     
     
 }

@@ -12,7 +12,11 @@ let appDelegate = NSApplication.shared.delegate as! AppDelegate
 
 func loadJSONFromBundle() {
     // check if menu.json exists
-    loadJSONFromBundle(fileName : "menu", fileExtension : "json")
+    if (loadJSONFromAppPath(fileName : "menu", fileExtension : "json")) {
+        //
+    } else {
+        loadJSONFromBundle(fileName : "menu", fileExtension : "json")
+    }
 }
 
 func loadJSONSettingsFromBundle() {
@@ -31,34 +35,89 @@ func loadJSONFromAppPath(fileName : String, fileExtension : String) -> Bool {
     let fileManager = FileManager.default
     if fileManager.fileExists(atPath: filePath) {
         addMessageToConsole("File \(entireFileName) found in app directory...")
-        checkJSONFile(fileName : "menu", fileExtension: "json")
-        return true
+        let (status, content) = checkJSONFile(fileName : "menu", fileExtension: "json")
+        if (status) {
+            return processJSON(json: content, type: "menu")
+        } else {
+            return false
+        }
+        
     } else {
         addMessageToConsole("Could not find \(entireFileName) in app directory...")
         return false
+        
     }
 
 }
 
-func checkJSONFile(fileName : String, fileExtension : String) {
-    
-    let entireFileName = fileName + "." + fileExtension
-    let path = Bundle.main.bundleURL.deletingLastPathComponent().path
-    
-    let filePath = "\(path)/\(entireFileName)"
+func checkJSONFile(fileName : String, fileExtension : String) -> (Bool, String) {
     
     let fileManager = FileManager.default
+    
+    let entireFileName = fileName + "." + fileExtension
+    
+    let appSupportPath = (fileManager.urls(for: .applicationSupportDirectory, in: .userDomainMask).first)!
+    
+    do {
+        let applicationSupportDirectory = try fileManager.url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+        let demoPlistURL = applicationSupportDirectory.appendingPathComponent(entireFileName)
+        if (!fileManager.fileExists(atPath: demoPlistURL.path)) {
+            
+            if let filepath = Bundle.main.path(forResource: "\(fileName)", ofType: "\(fileExtension)") {
+                do {
+                    try fileManager.copyItem(atPath: filepath, toPath: demoPlistURL.path)
+                    print("Copied json from bundle to application support folder...")
+                } catch {
+                    return (false, "")
+                }
+
+            }
+
+        } else {
+            print("Will load from application folder...")
+        }
+        print(demoPlistURL)
+        
+        if let contents = try? String(contentsOfFile: demoPlistURL.path,
+                                      encoding: String.Encoding.utf8
+            ) {
+            print("Loaded \(contents.count) lines...")
+            return (true, contents)
+        } else {
+            print("Could not load lines from file...")
+            return (false, "")
+            
+        }
+    } catch {
+        print(error)
+    }
+    
+    //let path = Bundle.main.bundleURL.deletingLastPathComponent().path
+    
+    let filePath = "\(appSupportPath)\(entireFileName)"
+    
     if fileManager.fileExists(atPath: filePath) {
+        
+        //let location = NSString(string: "~/\(filePath)").expandingTildeInPath
+        //let fileContent = try? NSString(contentsOfFile: location, encoding: String.Encoding.utf8.rawValue)
+        //print(fileContent)
+        
+    //print(FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first)
+        
+
         
         if let contents = try? String(contentsOfFile: filePath,
                                       encoding: String.Encoding.utf8
             ) {
             print("Loaded \(contents.count) lines...")
+            return (true, contents)
         } else {
-            print("Error loading lines...")
-            
+            print("Could not load lines from file...")
+            return (false, "")
+
         }
     }
+    return (false, "")
 }
 
 func loadJSONFromBundle(fileName : String, fileExtension : String) -> Bool {
@@ -86,7 +145,7 @@ func processJSON(json jsonString : String, type: String) -> Bool {
     
     // Decode data to object
     if let jsonObjects = jsonString.toJSON() {
-        var count = 0
+        //var count = 0
         if (type == "settings") {
             let json = parseJsonSettings(anyObj: jsonObjects as AnyObject)
             
