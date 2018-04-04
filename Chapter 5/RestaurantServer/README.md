@@ -9,6 +9,17 @@ Some info on how the app works (intended for Swift Teachers):
 
 ![Gatekeeper image](gatekeeper.png)
 
-- menu.json will be copied to the Shared Application folder, if you press "Edit "
+- menu.json will be copied to the Shared Application folder (Application Support), if you press "Open Menu Items Folder" (see below) you will directly end up in the Application Support folder and should see the menu.json file that the students can edit (using some editor like Atom, Coda or just Xcode).
 
-the app starts a HTTP server on port 8090 (default), if you open the App bundle you will also see a settings.json, you could change the port there (restart app to make the change work)
+![Mainscreen](screen.png)
+
+- the Console gives feedback on what happens inside the app
+- you should be able to access your server by going to http://localhost:8090/
+- the "View Categories" button should open http://localhost:8090/categories/ (a computed subset of menu.json)
+- the "View Menu Items" button should open http://localhost:8090/menu/ (the entire content of menu.json)
+
+## On changing the server address:
+The app starts a HTTP server on port 8090 (default), if you open the App bundle you will also see a settings.json, you could change the port there (restart app to make the change work). This is especially useful in the unlikely case that there is already some server running on port 8090.
+
+## On hosting the Restaurant server:
+You (read: your students) should also be able to access the server using your local IP address on port 8090 (e.g. http://192.168.0.200:8090/) or even by using your hostname (we show it in your console so your students could use your server in case they are all in the same local subnetwork as you).
