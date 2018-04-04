@@ -7,7 +7,7 @@ Some info on how the app works (intended for Swift Teachers):
 - menu.json (as provided by Apple Inc.) comes with the app as part of the App bundle
 - when you start the app for the first time you will get a warning because you download the app from internet, it won't open unless you allow it using to be opened using the "Privacy & settings" screen (shown in Dutch below:)
 
-![Gatekeeper image](/gatekeeper.png)
+![Gatekeeper image](gatekeeper.png)
 
 - menu.json will be copied to the Shared Application folder, if you press "Edit "
 
