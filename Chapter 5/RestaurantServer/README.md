@@ -24,4 +24,4 @@ The app starts a HTTP server on port 8090 (default), if you open the App bundle 
 ## On hosting the Restaurant server:
 You (read: your students) should also be able to access the server using your local IP address on port 8090 (e.g. http://192.168.0.200:8090/) or even by using your hostname (we show it in your console so your students could use your server in case they are all in the same local subnetwork as you).
 
-Note: 
+Note: you can add the main HTML content (rootHTML) by editting the settings.json in the App bundle. There is also a flag in there (showHostname) to hide your hostname from the console.
