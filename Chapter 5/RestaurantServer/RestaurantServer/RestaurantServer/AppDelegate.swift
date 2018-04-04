@@ -53,7 +53,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             
             serverHTTP.route(.get, "menu/", showMenu)
             serverHTTP.route(.get, "categories/", showCategories)
-            serverHTTP.route(.get, "/") { (.ok, "Server is running") }
+            serverHTTP.route(.get, "/") { (.ok, self.showMainPage()) }
+
+            if self.settings.showHostname {
+                if let deviceName = Host.current().name {
+                    addMessageToConsole("Note: server is also available using hostname: http://\(deviceName):\(self.settings.serverPort)/")
+                }
+            }
         } catch {
             addMessageToConsole("Could not start server...")
         }
@@ -68,6 +74,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func showCategories(request: HTTPRequest) -> HTTPResponse {
         let categories = self.restaurant.getCategoriesAsString()
         return HTTPResponse(content: categories)
+    }
+    
+    func showMainPage() -> String {
+        let html = self.settings.homeHTML
+        return html
     }
     
 }

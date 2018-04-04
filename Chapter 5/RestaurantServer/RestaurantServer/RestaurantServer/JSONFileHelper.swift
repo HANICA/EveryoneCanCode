@@ -175,6 +175,8 @@ func parseJsonSettings(anyObj:AnyObject) -> Settings
     if  anyObj is Array<AnyObject> {
         for json in anyObj as! Array<AnyObject>{
             s.serverPort  =  (json["serverPort"]  as AnyObject? as? UInt16) ?? 8080
+            s.showHostname    = (json["showHostname"] as AnyObject? as? Int == 1) 
+            s.homeHTML    = (json["rootHTML"] as AnyObject? as? String) ?? "RestaurantServer is running"
         }
     }
     return s

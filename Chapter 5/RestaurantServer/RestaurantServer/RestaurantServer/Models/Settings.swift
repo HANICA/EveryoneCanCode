@@ -10,4 +10,6 @@ import Foundation
 
 struct Settings: Codable {
     var serverPort : UInt16 = 8080
+    var showHostname : Bool = true
+    var homeHTML : String = "RestaurantServer is running"
 }

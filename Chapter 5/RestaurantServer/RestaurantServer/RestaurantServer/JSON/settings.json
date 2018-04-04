@@ -1,3 +1,5 @@
  [{
-  "serverPort": 8090
+  "serverPort": 8090,
+  "showHostname" : 1,
+  "rootHTML" : "<html>RestaurantServer is running<br><br>See <a href=\"https://github.com/HANICA/EveryoneCanCode\">HAN ICA Everyone Can Code on Github</a> for the source and some more info on this app.<br><br>Direct link: <a href=\"https://github.com/HANICA/EveryoneCanCode/blob/master/Chapter%205/RestaurantServer/README.md\">README.md</a><br><br><a href=\"/menu/\">/menu/</a><br><a href=\"/categories/\">/categories/</a></html>"
   }]

@@ -25,6 +25,7 @@ class ViewController: NSViewController {
         
         self.mainTitleLabel.stringValue = "Server is live at http://localhost:\(self.appDelegate.settings.serverPort)"
         
+        
     }
     
     override var representedObject: Any? {
