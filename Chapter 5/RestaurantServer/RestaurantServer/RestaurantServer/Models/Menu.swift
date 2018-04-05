@@ -13,7 +13,7 @@ struct Menu: Codable {
     var description : String = ""
     var price : Double = 0.0
     var category : String = ""
-    var imageName : String = ""
+    var imageURL : String = ""
     
     func printMenuItem() -> String {
         var result = ""
@@ -22,33 +22,33 @@ struct Menu: Codable {
         result += formatItem(itemkey : "description", item : description, last : false)
         result += formatItem(itemkey : "price", item : price, last : false)
         result += formatItem(itemkey : "category", item : category, last : false)
-        result += formatItem(itemkey : "imageName", item : imageName, last : true)
+        result += formatItem(itemkey : "imageURL", item : imageURL, last : true)
 
         //result = "{\n" + result + "\n}"
         return result
     }
     
     func formatItem(itemkey : String, item : Int, last : Bool) -> String {
-        return addSpace() + "\"\(itemkey)\" : \(item)" + addComma(last : last)
+        return addSpace() + "\"\(itemkey)\":\(item)" + addComma(last : last)
     }
     
     func formatItem(itemkey : String, item : Double, last : Bool) -> String {
-        return addSpace() + "\"\(itemkey)\" : \(item)" + addComma(last : last)
+        return addSpace() + "\"\(itemkey)\":\(item)" + addComma(last : last)
     }
     
     func formatItem(itemkey : String, item : String, last : Bool) -> String {
-        return addSpace() + "\"\(itemkey)\" : \"\(item)\"" + addComma(last : last)
+        return addSpace() + "\"\(itemkey)\":\"\(item)\"" + addComma(last : last)
     }
     
     func addComma(last : Bool) -> String {
         if !last {
-            return ",\n"
+            return ","
         } else {
-            return "\n"
+            return ""
         }
     }
     
     func addSpace() -> String {
-        return "    "
+        return ""
     }
 }

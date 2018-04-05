@@ -197,13 +197,24 @@ func parseJsonMenu(anyObj:AnyObject) -> Array<Menu>{
             m.description  =  (json["description"]  as AnyObject? as? String) ?? ""
             m.price  =  (json["price"]  as AnyObject? as? Double) ?? 0.0
             m.category  =  (json["category"]  as AnyObject? as? String) ?? ""
-            m.imageName  =  (json["imageName"]  as AnyObject? as? String) ?? ""
+            m.imageURL  =  (json["image_url"]  as AnyObject? as? String) ?? ""
             
             list.append(m)
         }
     }
     
     return list
+}
+
+func jsonDict(json: String) -> [String : Any]? {
+    if let
+        data = json.data(using: String.Encoding.utf8),
+        let object = try? JSONSerialization.jsonObject(with: data, options: []),
+        let dict = object as? [String : Any] {
+        return dict
+    } else {
+        return nil
+    }
 }
 
 func addMessageToConsole(_ message : String) {

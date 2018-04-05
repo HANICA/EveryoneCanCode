@@ -37,9 +37,28 @@ class Restaurant {
                 i += 1
             }
         }
-        return "[\n  {\n" + "    \"category\" : [" +  categoriesString + "]\n  }\n]"
-    }
+        //return "{" +  categoriesString + "}"
+        // {"categories":["entrees","appetizers","main course"]}
 
+        return "{\"categories\":[" + categoriesString + "]}"
+    }
+    
+    // appDelegate.restaurant.getCategories(category : name)
+
+    func getCategories(category : String) -> String {
+        // get all unique categories for menu
+        var menuString = ""
+        
+        for menuitem in self.menu {
+            if menuitem.category == category {
+                menuString += "{" + menuitem.printMenuItem() + "},"
+            }
+        }
+        if (menuString.last == ",") {
+          menuString = String(menuString.dropLast()) // remove last ","
+        }
+        return "{\"items\":[" + menuString + "]}"
+    }
     
     func getMenuAsString() -> String {
         var menuString = ""
@@ -47,12 +66,16 @@ class Restaurant {
         
         for menuitem in self.menu {
             if (i == (self.menu.count - 1)) {
-                menuString += "  {\n" + menuitem.printMenuItem() + "  }\n"
+                menuString += "{" + menuitem.printMenuItem() + "}"
             } else {
-                menuString += "  {\n" + menuitem.printMenuItem() + "  },\n"
+                menuString += "{" + menuitem.printMenuItem() + "},"
             }
             i += 1
         }
-        return "[\n" + menuString + "]"
+        return "{\"items\":[" + menuString + "]}"
     }
 }
+
+/*{"items":[{"category":"Entrees","id":0,"image_url":"nu.nl","name":"test","description":"testitem 1","price":1},{"category":"Entrees","id":0,"image_url":"nu.nl","name":"test","description":"testitem 1","price":1}]}*/
+
+

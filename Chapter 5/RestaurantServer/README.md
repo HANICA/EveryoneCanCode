@@ -25,3 +25,10 @@ The app starts a HTTP server on port 8090 (default), if you open the App bundle 
 You (read: your students) should also be able to access the server using your local IP address on port 8090 (e.g. http://192.168.0.200:8090/) or even by using your hostname (we show it in your console so your students could use your server in case they are all in the same local subnetwork as you).
 
 Note: you can add the main HTML content (rootHTML) by editting the settings.json in the App bundle. There is also a flag in there (showHostname) to hide your hostname from the console.
+
+## Versions
+
+V1.0.2 is in-line with the OrderApp from the Teachers' materials, we have made some minor changes to the suggested OrderApp (also in this repo) to make it less
+crude (especially the images part).
+Version 1.0.2 does not provide any images (although one could add image URL's to the menu.json file for menu items). For now we have not implemented ordering either.
+

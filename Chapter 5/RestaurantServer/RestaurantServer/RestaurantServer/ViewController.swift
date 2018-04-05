@@ -25,7 +25,6 @@ class ViewController: NSViewController {
         
         self.mainTitleLabel.stringValue = "Server is live at http://localhost:\(self.appDelegate.settings.serverPort)"
         
-        
     }
     
     override var representedObject: Any? {
@@ -43,28 +42,7 @@ class ViewController: NSViewController {
         logToTextView(tv: consoleTextView, message: message)
     }
     
-    func getTime() -> String {
-        let date = Date()
-        let calendar = Calendar.current
-        
-        let hour = calendar.component(.hour, from: date)
-        let minutes = calendar.component(.minute, from: date)
-        let seconds = calendar.component(.second, from: date)
-        let str = "\(hour):\(minutes):\(seconds): "
-        return str
-        
-    }
     
-    func jsonDict(json: String) -> [String : Any]? {
-        if let
-            data = json.data(using: String.Encoding.utf8),
-            let object = try? JSONSerialization.jsonObject(with: data, options: []),
-            let dict = object as? [String : Any] {
-            return dict
-        } else {
-            return nil
-        }
-    }
     
     
     
