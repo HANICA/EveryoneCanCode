@@ -73,6 +73,7 @@ class MenuController {
         let data: [String: [Int]] = ["menuIds": menuIds]
         let jsonEncoder = JSONEncoder()
         let jsonData = try? jsonEncoder.encode(data)
+        print(data)
         request.httpBody = jsonData
         let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
             let jsonDecoder = JSONDecoder()

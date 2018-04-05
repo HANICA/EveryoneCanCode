@@ -43,7 +43,21 @@ func returnCategory(request: HTTPRequest) -> HTTPResponse {
 }
 
 func processOrder(request : HTTPRequest) -> HTTPResponse {
-    print(request)
+    print("Process order:")
+    print("Request: \(request)")
+    let jsonEncoder = JSONEncoder()
+    if let string = String(data: request.body, encoding: .utf8) {
+        print("Body: \(string)")
+        let order = Order(menuIds: [])
+        let time = order.decodeOrder(data: request.body)
+        let preTime = PreparationTime(prepTime: time)
+        let jsonData = try? jsonEncoder.encode(preTime)
+        if let jsonDataString = String(data: jsonData!, encoding: String.Encoding.utf8) {
+            return HTTPResponse(content: jsonDataString)
+        }
+    } else {
+        print("Body does not contain a valid UTF-8 sequence")
+    }
     return HTTPResponse(content: "OK")
 }
 
