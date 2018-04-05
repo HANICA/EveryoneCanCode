@@ -42,6 +42,11 @@ func returnCategory(request: HTTPRequest) -> HTTPResponse {
     return HTTPResponse(content: category)
 }
 
+func processOrder(request : HTTPRequest) -> HTTPResponse {
+    print(request)
+    return HTTPResponse(content: "OK")
+}
+
 func showMainPage() -> String {
     let html = appDelegate.settings.homeHTML
     return html
@@ -66,8 +71,9 @@ extension Server {
         self.route(.get, "menu/", showMenu)
         self.route(.get, "categories", showCategories)
         self.route(.get, "categories/", showCategories)
+        self.route(.post, "order", processOrder)
+        self.route(.post, "order", processOrder)
         self.route(.get, "/") { (.ok, showMainPage()) }
-        
     }
 }
 

@@ -8,3 +8,8 @@ We have made a few changes: the decodable protocol seems to be very unforgiving 
 
 ## ToDo:
 - there should be better feedback on decoding JSON to the objects, jsonDecoder.decode(MenuItems.self, from: data) either succeeds or fails and seems to fail on every little detail without a good way to debug / trace reasons.
+
+## Notes:
+
+I changed the baseURL in MenuController to my RestaurantServer hostname (http://macbook-pro.local:8090/ in my case), if you work on the same machine (using iPhone simulator), you could/should use http://localhost:8090/ as the local address.
+
