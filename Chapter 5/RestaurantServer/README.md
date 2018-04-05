@@ -26,6 +26,14 @@ You (read: your students) should also be able to access the server using your lo
 
 Note: you can add the main HTML content (rootHTML) by editting the settings.json in the App bundle. There is also a flag in there (showHostname) to hide your hostname from the console.
 
+<<<<<<< HEAD
+## Versions
+
+V1.0.2 is in-line with the OrderApp from the Teachers' materials, we have made some minor changes to the suggested OrderApp (also in this repo) to make it less
+crude (especially the images part).
+Version 1.0.2 does not provide any images (although one could add image URL's to the menu.json file for menu items). For now we have not implemented ordering either.
+
+=======
 ## ToDo:
 - query parameter for /menu endpoint
 - /images endpoint
