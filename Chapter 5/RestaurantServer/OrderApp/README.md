@@ -11,5 +11,5 @@ We have made a few changes: the decodable protocol seems to be very unforgiving 
 
 ## Notes:
 
-I changed the baseURL in MenuController to my RestaurantServer hostname (http://macbook-pro.local:8090/ in my case), if you work on the same machine (using iPhone simulator), you could/should use http://localhost:8090/ as the local address.
+I changed the baseURL in MenuController(.swift) to my RestaurantServer hostname (http://macbook-pro.local:8090/ in my case), if you work on the same machine (using iPhone simulator), you could/should use http://localhost:8090/ as the local address.
 
