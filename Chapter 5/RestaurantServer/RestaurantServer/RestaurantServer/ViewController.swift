@@ -20,10 +20,13 @@ class ViewController: NSViewController {
         super.viewDidLoad()
         
         self.appDelegate.mainVC = self
+        self.logToTextView(message: version())
+
         self.appDelegate.loadData()
         self.appDelegate.startServer()
         
         self.mainTitleLabel.stringValue = "Server is live at http://localhost:\(self.appDelegate.settings.serverPort)"
+        
         
     }
     
@@ -68,6 +71,13 @@ class ViewController: NSViewController {
         
         NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: appSupportPath.path)
         
+    }
+    
+    func version() -> String {
+        let dictionary = Bundle.main.infoDictionary!
+        let version = dictionary["CFBundleShortVersionString"] as! String
+        let build = dictionary["CFBundleVersion"] as! String
+        return "RestaurantServer version: \(version) build \(build)"
     }
     
 
