@@ -35,9 +35,10 @@ Version 1.0.2 does not provide any images (although one could add image URL's to
 
 V1.0.3 Has implemented the order functionality as well. Ordering now gives back an estimate of the preparation time (see the magical function for that in the ServerApp), would be better to have an estimated preparation time per menu item but Apple did not provide it, so this was left-out as well. 
 
+V1.0.4 Images now work! They are loaded from the Application Bundle (for now).
+
 
 =======
 ## ToDo:
 - query parameter for /menu endpoint
 - /images endpoint
-- /order POST

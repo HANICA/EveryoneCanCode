@@ -47,7 +47,7 @@ class MenuTableViewController: UITableViewController {
         let menuItem = menuItems[indexPath.row]
         cell.textLabel?.text = menuItem.name
         cell.detailTextLabel?.text = String(format: "$%.2f", menuItem.price)
-        if let url = menuItem.imageURL {
+        if let url = URL(string: menuItem.imageURL) {
             MenuController.shared.fetchImage(url: url) { (image) in
                 guard let image = image else { return }
                 DispatchQueue.main.async {

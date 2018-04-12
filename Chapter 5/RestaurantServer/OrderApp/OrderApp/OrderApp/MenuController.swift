@@ -5,7 +5,12 @@ class MenuController {
     static let shared = MenuController()
     
     let baseURL = URL(string: "http://macbook-pro.local:8090/")!
-    //http://localhost:8090/")!
+    // Default server address is: http://localhost:8090/
+    // In case you want to test with a real device change the URL
+    // since otherwise you can't reach it since localhost assumes
+    // client and server are on the same machine
+    // see console of the server app for the address
+    // (localhost still is possible)
     
     func fetchCategories(completion: @escaping ([String]?) -> Void) {
         let categoryURL = baseURL.appendingPathComponent("categories")
@@ -54,7 +59,18 @@ class MenuController {
     }
     
     func fetchImage(url: URL, completion: @escaping (UIImage?) -> Void) {
-        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+        // Added by Johan Korten:
+        // otherwise the entire (server)path to the image URL is needed in your menu.json
+        // if no http found in URL we assume it is the default server (-> baseURL)
+        // if there was no http found in the string then it will append the server path to the beginning of the image URL
+        var finalURL = url
+        if (!url.absoluteString.contains("http")) {
+            finalURL = MenuController.shared.baseURL
+            finalURL = finalURL.appendingPathComponent("images")
+            finalURL = finalURL.appendingPathComponent(url.absoluteString)
+        }
+        
+        let task = URLSession.shared.dataTask(with: finalURL) { (data, response, error) in
             if let data = data,
                 let image = UIImage(data: data) {
                 completion(image)

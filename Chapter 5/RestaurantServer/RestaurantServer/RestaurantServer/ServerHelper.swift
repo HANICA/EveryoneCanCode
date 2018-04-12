@@ -97,8 +97,7 @@ extension Server {
         self.route(.get, "categories/", showCategories)
         self.route(.post, "order", processOrder)
         self.route(.post, "order/", processOrder)
-        self.serveBundle(.main, "/")
-        //self.route(.get, "image/:name", handleImage)
+        self.serveBundle(.main, "images/")
         self.route(.get, "/") { (.ok, showMainPage()) }
     }
 }
