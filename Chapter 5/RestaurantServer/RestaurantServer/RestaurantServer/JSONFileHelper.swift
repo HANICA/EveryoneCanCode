@@ -8,7 +8,7 @@
 
 import Cocoa
 
-let appDelegate = NSApplication.shared.delegate as! AppDelegate
+//let appDelegate = NSApplication.shared.delegate as! AppDelegate
 
 func loadJSONFromBundle() {
         
@@ -42,7 +42,7 @@ func loadJSONFromAppPath(fileName : String, fileExtension : String) -> Bool {
     
     let fileManager = FileManager.default
     if fileManager.fileExists(atPath: filePath) {
-        addMessageToConsole("File \(entireFileName) found in app directory...")
+        addMessageToConsole("File \(entireFileName) found in app folder...")
         let (status, content) = checkJSONFile(fileName : "menu", fileExtension: "json")
         if (status) {
             return processJSON(json: content, type: "menu")
@@ -51,11 +51,36 @@ func loadJSONFromAppPath(fileName : String, fileExtension : String) -> Bool {
         }
         
     } else {
-        addMessageToConsole("Could not find \(entireFileName) in app directory...")
+        addMessageToConsole("Could not find \(entireFileName) in app folder...")
         return false
         
     }
     
+}
+
+func checkImagesFolder() -> Bool {
+    
+    // we check if images folder exists in Application Support
+    // if so the server can load images from there!
+    
+    let fileManager = FileManager.default
+    
+    var appSupportPath = (fileManager.urls(for: .applicationSupportDirectory, in: .userDomainMask).first)!
+    
+    let subFolder = "images/"
+    appSupportPath.appendPathComponent(subFolder)
+
+    if fileManager.fileExists(atPath: appSupportPath.path) {
+        addMessageToConsole("File \(subFolder) found in app support folder...")
+        // Add this folder to the server...
+        // This will be done in ServerHelper
+        return true
+    } else {
+        
+        addMessageToConsole("Could not find \(appSupportPath.absoluteString) in app folder...")
+        return false
+        
+    }
 }
 
 func checkJSONFile(fileName : String, fileExtension : String) -> (Bool, String) {

@@ -16,6 +16,9 @@ class ViewController: NSViewController {
     
     @IBOutlet weak var mainTitleLabel: NSTextField!
     
+    
+    @IBOutlet weak var imageFolderButton: NSButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -27,7 +30,7 @@ class ViewController: NSViewController {
         
         self.mainTitleLabel.stringValue = "Server is live at http://localhost:\(self.appDelegate.settings.serverPort)"
         
-        
+        imageFolderButton.isEnabled = appDelegate.imageFolderFound 
     }
     
     override var representedObject: Any? {
@@ -72,6 +75,18 @@ class ViewController: NSViewController {
         NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: appSupportPath.path)
         
     }
+    
+    @IBAction func openImageDirectory(_ sender: Any) {
+        
+        let fileManager = FileManager.default
+        var appSupportPath = (fileManager.urls(for: .applicationSupportDirectory, in: .userDomainMask).first)!
+        
+        let subFolder = "images/"
+        appSupportPath.appendPathComponent(subFolder)
+        
+        NSWorkspace.shared.selectFile(nil, inFileViewerRootedAtPath: appSupportPath.path)
+    }
+    
     
     func version() -> String {
         let dictionary = Bundle.main.infoDictionary!

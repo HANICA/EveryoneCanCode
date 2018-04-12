@@ -21,12 +21,15 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var restaurant = Restaurant()
     var settings   = Settings()
     
+    var imageFolderFound = false
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
         
     }
     
     func loadData() {
+        self.imageFolderFound = checkImagesFolder()
         loadJSONSettingsFromBundle()
         reloadData()
     }

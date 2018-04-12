@@ -9,6 +9,7 @@
 import Foundation
 import Telegraph
 
+let appDelegate = NSApplication.shared.delegate as! AppDelegate
 // appDelegate can be reused.
 
 func showMenu(request: HTTPRequest) -> HTTPResponse {
@@ -97,8 +98,20 @@ extension Server {
         self.route(.get, "categories/", showCategories)
         self.route(.post, "order", processOrder)
         self.route(.post, "order/", processOrder)
-        self.serveBundle(.main, "images/")
+
+        if (appDelegate.imageFolderFound) {
+            let fileManager = FileManager.default
+            var appSupportPath = (fileManager.urls(for: .applicationSupportDirectory, in: .userDomainMask).first)!
+            
+            let subFolder = "images/"
+            appSupportPath.appendPathComponent(subFolder)
+            self.serveDirectory(appSupportPath, "images/")
+        } else {
+            self.serveBundle(.main, "images/")
+        }
         self.route(.get, "/") { (.ok, showMainPage()) }
     }
 }
+
+
 

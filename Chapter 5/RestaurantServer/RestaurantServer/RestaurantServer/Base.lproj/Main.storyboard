@@ -748,6 +748,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="openImageDirectory:" target="XfG-lQ-9wD" id="IdZ-J0-3lF"/>
+                                </connections>
                             </button>
                             <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZp-Ls-45x">
                                 <rect key="frame" x="0.0" y="0.0" width="675" height="109"/>
@@ -823,6 +826,7 @@
                     </view>
                     <connections>
                         <outlet property="consoleTextView" destination="vZp-Ls-45x" id="VaG-in-RG1"/>
+                        <outlet property="imageFolderButton" destination="dNt-am-GEr" id="jzM-aB-2ya"/>
                         <outlet property="mainTitleLabel" destination="il5-Jo-X08" id="tQq-qB-rgg"/>
                     </connections>
                 </viewController>
