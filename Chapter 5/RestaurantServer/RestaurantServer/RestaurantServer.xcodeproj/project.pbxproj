@@ -28,6 +28,7 @@
 		7824D9F42074FE380041BE59 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7824D9F22074FE380041BE59 /* menu.json */; };
 		7824D9F72074FEA70041BE59 /* JSONFileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824D9F62074FEA70041BE59 /* JSONFileHelper.swift */; };
 		783266002076398D00D47851 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783265FF2076398D00D47851 /* Orders.swift */; };
+		78BEBA33207FA65800EE3F07 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 78BEBA32207FA65700EE3F07 /* index.html */; };
 		78E0C98D2075151100282C81 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0C98A2075151100282C81 /* Settings.swift */; };
 		78E0C98E2075151100282C81 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0C98B2075151100282C81 /* Menu.swift */; };
 		78E0C98F2075151100282C81 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E0C98C2075151100282C81 /* Restaurant.swift */; };
@@ -88,6 +89,7 @@
 		7824D9F22074FE380041BE59 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		7824D9F62074FEA70041BE59 /* JSONFileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFileHelper.swift; sourceTree = "<group>"; };
 		783265FF2076398D00D47851 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		78BEBA32207FA65700EE3F07 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		78E0C98A2075151100282C81 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		78E0C98B2075151100282C81 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		78E0C98C2075151100282C81 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 				780EF09E207E7A000061DF51 /* 8_Pizza_Vesuvio.png */,
 				780EF09F207E7A000061DF51 /* 9_Pizza_al_Tonno.png */,
 				780EF0A1207E7A000061DF51 /* 10_Pizza_Paprika.png */,
+				78BEBA32207FA65700EE3F07 /* index.html */,
 				7824D9F22074FE380041BE59 /* menu.json */,
 				7824D9F12074FE380041BE59 /* settings.json */,
 			);
@@ -364,6 +367,7 @@
 				780EF0AF207E7A010061DF51 /* 0_Placeholder.png in Resources */,
 				7824D9C32074FD920041BE59 /* Assets.xcassets in Resources */,
 				780EF0B0207E7A010061DF51 /* 3_Grilled_Steelhead_Trout_Sandwich.png in Resources */,
+				78BEBA33207FA65800EE3F07 /* index.html in Resources */,
 				780EF0AA207E7A010061DF51 /* 9_Pizza_al_Tonno.png in Resources */,
 				7824D9F42074FE380041BE59 /* menu.json in Resources */,
 				780EF0B1207E7A010061DF51 /* 4_Pesto_Linguini.png in Resources */,

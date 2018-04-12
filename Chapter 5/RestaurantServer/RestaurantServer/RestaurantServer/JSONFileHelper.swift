@@ -71,13 +71,13 @@ func checkImagesFolder() -> Bool {
     appSupportPath.appendPathComponent(subFolder)
 
     if fileManager.fileExists(atPath: appSupportPath.path) {
-        addMessageToConsole("File \(subFolder) found in app support folder...")
+        addMessageToConsole("Folder '\(subFolder)' found in App Support path...")
         // Add this folder to the server...
         // This will be done in ServerHelper
         return true
     } else {
         
-        addMessageToConsole("Could not find \(appSupportPath.absoluteString) in app folder...")
+        addMessageToConsole("Could not find '\(subFolder)' in App Support path so defaulting to images in App Bundle.")
         return false
         
     }
