@@ -26,7 +26,6 @@ You (read: your students) should also be able to access the server using your lo
 
 Note: you can add the main HTML content (rootHTML) by editting the settings.json in the App bundle. There is also a flag in there (showHostname) to hide your hostname from the console.
 
-<<<<<<< HEAD
 ## Versions
 
 V1.0.2 is in-line with the OrderApp from the Teachers' materials, we have made some minor changes to the suggested OrderApp (also in this repo) to make it less
@@ -40,4 +39,4 @@ The update will allow you to load images using:
 http://localhost:8090/images/
 So e.g. for item 8, 8_Pizza_Vesuvio.png in the menu.json file will allow you to load http://localhost:8090/images/8_Pizza_Vesuvio.png
 
-V1.0.5 If you add a folder called "images" to your Application Support folder, the server will serve images from there instead of the bundle. If the images folder is found in your Application Support folder this also enables the "Open Image Directory" button from the interface. This allows more novice Swift users to easily modify images etc. without the need to dive into the RestaurantServer application bundle themselves. All images are "686 x 334" for now.
+V1.0.5 If you add a folder called "images" to your Application Support folder, the server will serve images from there instead of the bundle. If the images folder is found in your Application Support folder this also enables the "Open Image Directory" button from the interface. This allows more novice Swift users to easily modify images etc. without the need to dive into the RestaurantServer application bundle themselves. All images are "686 x 334" (for now).
