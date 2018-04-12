@@ -4,6 +4,50 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/0_Placeholder.png</key>
+		<data>
+		0e3xJNiBA+AG2DCCJPms28IMo28=
+		</data>
+		<key>Resources/10_Pizza_Paprika.png</key>
+		<data>
+		0ocjn5v3tsE1Pf7TN+RVY7xDW7Y=
+		</data>
+		<key>Resources/1_Spaghetti_Meatballs.png</key>
+		<data>
+		0F8TLJ0/yca1D+aSkjhoc/DJK2I=
+		</data>
+		<key>Resources/2_Margherita_Pizza.png</key>
+		<data>
+		vItPms/lupvCtJ+Pzmb6Zp9OMdE=
+		</data>
+		<key>Resources/3_Grilled_Steelhead_Trout_Sandwich.png</key>
+		<data>
+		B8WozaCU9oX8i1bpNTw32cQEia4=
+		</data>
+		<key>Resources/4_Pesto_Linguini.png</key>
+		<data>
+		lNIVoqNu+RUKc4RgnYdGqMNpcj0=
+		</data>
+		<key>Resources/5_Chicken_Noodle_Soup.png</key>
+		<data>
+		Lt+hXoHsK2keTcYjcj81wqRw8lE=
+		</data>
+		<key>Resources/6_Italian_Salad.png</key>
+		<data>
+		Uu+uNZMQZXD2uqQ2ssNbzzcPgog=
+		</data>
+		<key>Resources/7_Pizza_San_Giovanni.png</key>
+		<data>
+		J8q5PVrhkzdiRbYHTuEOIo3kQa8=
+		</data>
+		<key>Resources/8_Pizza_Vesuvio.png</key>
+		<data>
+		mASSEZuLL2j8MEzJIIX0q6kpqB8=
+		</data>
+		<key>Resources/9_Pizza_al_Tonno.png</key>
+		<data>
+		CAubGc/5XBlmsNSwrvxZZfl745c=
+		</data>
 		<key>Resources/AppIcon.icns</key>
 		<data>
 		uLBNVRpt63zyuhaU/uOBQ4DjNvY=
@@ -34,7 +78,7 @@
 		</data>
 		<key>Resources/menu.json</key>
 		<data>
-		5Rg/5oI8kmqCWN8Ej6c/gxyh/9E=
+		X03jlI4JnzZbsUy7rqI0nz11YCA=
 		</data>
 		<key>Resources/settings.json</key>
 		<data>
@@ -205,6 +249,83 @@
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftos" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
+		<key>Resources/0_Placeholder.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZKHEYOzVdww2dEUuMef3TkdS+7aB6N+1M6MD59v9jL8=
+			</data>
+		</dict>
+		<key>Resources/10_Pizza_Paprika.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m3KG0XC0gwLajoe7p9tcxIPp0FF/7M7y9F0tSwjivtk=
+			</data>
+		</dict>
+		<key>Resources/1_Spaghetti_Meatballs.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KCQ2IDitVf0+yv7nwx302wqAfgZIcdWIAgdWXbFm1k4=
+			</data>
+		</dict>
+		<key>Resources/2_Margherita_Pizza.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			21X1dJG1ZiwEL/jtd6iIY4swfxFq4QO5SPtQaxpE7s8=
+			</data>
+		</dict>
+		<key>Resources/3_Grilled_Steelhead_Trout_Sandwich.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zVk31CHl2LIrfPD0Eo1rQw5aoJan6fE0Dt7O7adghiY=
+			</data>
+		</dict>
+		<key>Resources/4_Pesto_Linguini.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JsENJVX1hyBGdrtGzJXibi8AFstAmdWHxy+cODD7ZVQ=
+			</data>
+		</dict>
+		<key>Resources/5_Chicken_Noodle_Soup.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+NcgdhjDkHwnse8v+SA5WrqinLInSXZXwQFDh/m1+C8=
+			</data>
+		</dict>
+		<key>Resources/6_Italian_Salad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iGgNWrZvAqZVqq4GijE29Mx4aG4amVD+IjuCj4Rjqfk=
+			</data>
+		</dict>
+		<key>Resources/7_Pizza_San_Giovanni.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gfnGPy2yqPsG4kK08PQ36QWPoJRoFVZI1Bj6VmvJHOo=
+			</data>
+		</dict>
+		<key>Resources/8_Pizza_Vesuvio.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IzEQ852PL+BWUZAjKXXrAvA1FfNLSfDoE97V9CB+kFQ=
+			</data>
+		</dict>
+		<key>Resources/9_Pizza_al_Tonno.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			omH7XiupXuNCDsehT3VWgSH6iI/dnfZrOufm0+INxvU=
+			</data>
+		</dict>
 		<key>Resources/AppIcon.icns</key>
 		<dict>
 			<key>hash2</key>
@@ -258,7 +379,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Bb4hI2bz2PB4iOYIXtXqbPUq00QKHV0octCw1Bw5yI=
+			SEpc8EPXTzDkxPBXGFlX4PlWivTpDePSi7wMuVJY3Ag=
 			</data>
 		</dict>
 		<key>Resources/settings.json</key>

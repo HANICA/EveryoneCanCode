@@ -4,7 +4,7 @@
  "description": "Seasoned meatballs on top of freshly-made spaghetti. Served with a robust tomato sauce.",
  "price": 9.0,
  "category": "entrees",
- "image_url": ""
+ "image_url": "1_Spaghetti_Meatballs.png"
  },
  {
  "id": 2,
@@ -12,7 +12,7 @@
  "description": "Tomato sauce, fresh mozzarella, basil, and extra-virgin olive oil.",
  "price": 10.0,
  "category": "entrees",
- "image_url": ""
+ "image_url": "2_Margherita_Pizza.png"
  },
  {
  "id": 3,
@@ -20,7 +20,7 @@
  "description": "Pacific steelhead trout* with lettuce, tomato, and red onion.",
  "price": 9.0,
  "category": "entrees",
- "image_url": ""
+ "image_url": "3_Grilled_Steelhead_Trout_Sandwich.png"
  },
  {
  "id": 4,
@@ -28,7 +28,7 @@
  "description": "Stewed sliced beef with yellow onions and garlic in a vinegar-soy sauce. Served with steamed jasmine rice and sautéed vegetables.",
  "price": 9.0,
  "category": "entrees",
- "image_url": ""
+ "image_url": "4_Pesto_Linguini.png"
  },
  {
  "id": 5,
@@ -36,7 +36,7 @@
  "description": "Delicious chicken simmered alongside yellow onions, carrots, celery, and bay leaves, chicken stock.",
  "price": 3.0,
  "category": "appetizers",
- "image_url": ""
+ "image_url": "5_Chicken_Noodle_Soup.png"
  },
  {
  "id": 6,
@@ -44,7 +44,7 @@
  "description": "Garlic, red onions, tomatoes, mushrooms, and olives on top of romaine lettuce.",
  "price": 5.0,
  "category": "appetizers",
- "image_url": ""
+ "image_url": "6_Italian_Salad.png"
  },
  {
  "id": 7,
@@ -52,7 +52,7 @@
  "description": "Tomato sauce, egg plant, onions, fresh mozzarella, basil, and extra-virgin olive oil on a crusty fresh pizza bottom.",
  "price": 15.0,
  "category": "main course",
- "image_url": ""
+ "image_url": "7_Pizza_San_Giovanni.png"
  },
  {
  "id": 8,
@@ -60,7 +60,7 @@
  "description": "Tomato sauce, salami, hot peppers, onions, topped with parmesan flakes, and extra-virgin olive oil on a crusty fresh pizza bottom.",
  "price": 15.0,
  "category": "main course",
- "image_url": ""
+ "image_url": "8_Pizza_Vesuvio.png"
  },
  {
  "id": 9,
@@ -68,6 +68,6 @@
  "description": "Tomato sauce, fresh herbs, eco-friendly caught Tuna and extra-virgin olive oil on a crusty fresh pizza bottom.",
  "price": 15.0,
  "category": "main course",
- "image_url": ""
+ "image_url": "9_Pizza_al_Tonno.png"
  }
  ]

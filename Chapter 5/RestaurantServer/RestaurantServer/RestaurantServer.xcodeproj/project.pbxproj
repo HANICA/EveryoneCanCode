@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780EF0A8207E7A010061DF51 /* 1_Spaghetti_Meatballs.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF09D207E79FF0061DF51 /* 1_Spaghetti_Meatballs.png */; };
+		780EF0A9207E7A010061DF51 /* 8_Pizza_Vesuvio.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF09E207E7A000061DF51 /* 8_Pizza_Vesuvio.png */; };
+		780EF0AA207E7A010061DF51 /* 9_Pizza_al_Tonno.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF09F207E7A000061DF51 /* 9_Pizza_al_Tonno.png */; };
+		780EF0AB207E7A010061DF51 /* 6_Italian_Salad.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF0A0207E7A000061DF51 /* 6_Italian_Salad.png */; };
+		780EF0AC207E7A010061DF51 /* 10_Pizza_Paprika.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF0A1207E7A000061DF51 /* 10_Pizza_Paprika.png */; };
+		780EF0AD207E7A010061DF51 /* 7_Pizza_San_Giovanni.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF0A2207E7A000061DF51 /* 7_Pizza_San_Giovanni.png */; };
+		780EF0AE207E7A010061DF51 /* 2_Margherita_Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF0A3207E7A000061DF51 /* 2_Margherita_Pizza.png */; };
+		780EF0AF207E7A010061DF51 /* 0_Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF0A4207E7A000061DF51 /* 0_Placeholder.png */; };
+		780EF0B0207E7A010061DF51 /* 3_Grilled_Steelhead_Trout_Sandwich.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF0A5207E7A000061DF51 /* 3_Grilled_Steelhead_Trout_Sandwich.png */; };
+		780EF0B1207E7A010061DF51 /* 4_Pesto_Linguini.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF0A6207E7A000061DF51 /* 4_Pesto_Linguini.png */; };
+		780EF0B2207E7A010061DF51 /* 5_Chicken_Noodle_Soup.png in Resources */ = {isa = PBXBuildFile; fileRef = 780EF0A7207E7A010061DF51 /* 5_Chicken_Noodle_Soup.png */; };
 		7824D9BF2074FD910041BE59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824D9BE2074FD910041BE59 /* AppDelegate.swift */; };
 		7824D9C12074FD910041BE59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824D9C02074FD910041BE59 /* ViewController.swift */; };
 		7824D9C32074FD920041BE59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7824D9C22074FD920041BE59 /* Assets.xcassets */; };
@@ -49,6 +60,17 @@
 		16E5A57D9CF6A3211BA96593 /* Pods_RestaurantServerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestaurantServerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D39AAAA705E1A45A206AA63 /* Pods-RestaurantServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantServer/Pods-RestaurantServer.release.xcconfig"; sourceTree = "<group>"; };
 		57149F11D564A2B72818B7F0 /* Pods-RestaurantServerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantServerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantServerUITests/Pods-RestaurantServerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		780EF09D207E79FF0061DF51 /* 1_Spaghetti_Meatballs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_Spaghetti_Meatballs.png; sourceTree = "<group>"; };
+		780EF09E207E7A000061DF51 /* 8_Pizza_Vesuvio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8_Pizza_Vesuvio.png; sourceTree = "<group>"; };
+		780EF09F207E7A000061DF51 /* 9_Pizza_al_Tonno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9_Pizza_al_Tonno.png; sourceTree = "<group>"; };
+		780EF0A0207E7A000061DF51 /* 6_Italian_Salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6_Italian_Salad.png; sourceTree = "<group>"; };
+		780EF0A1207E7A000061DF51 /* 10_Pizza_Paprika.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10_Pizza_Paprika.png; sourceTree = "<group>"; };
+		780EF0A2207E7A000061DF51 /* 7_Pizza_San_Giovanni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7_Pizza_San_Giovanni.png; sourceTree = "<group>"; };
+		780EF0A3207E7A000061DF51 /* 2_Margherita_Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_Margherita_Pizza.png; sourceTree = "<group>"; };
+		780EF0A4207E7A000061DF51 /* 0_Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0_Placeholder.png; sourceTree = "<group>"; };
+		780EF0A5207E7A000061DF51 /* 3_Grilled_Steelhead_Trout_Sandwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3_Grilled_Steelhead_Trout_Sandwich.png; sourceTree = "<group>"; };
+		780EF0A6207E7A000061DF51 /* 4_Pesto_Linguini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4_Pesto_Linguini.png; sourceTree = "<group>"; };
+		780EF0A7207E7A010061DF51 /* 5_Chicken_Noodle_Soup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5_Chicken_Noodle_Soup.png; sourceTree = "<group>"; };
 		7824D9BB2074FD910041BE59 /* RestaurantServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7824D9BE2074FD910041BE59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7824D9C02074FD910041BE59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -190,6 +212,17 @@
 		7824D9F52074FE3E0041BE59 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
+				780EF0A4207E7A000061DF51 /* 0_Placeholder.png */,
+				780EF09D207E79FF0061DF51 /* 1_Spaghetti_Meatballs.png */,
+				780EF0A3207E7A000061DF51 /* 2_Margherita_Pizza.png */,
+				780EF0A5207E7A000061DF51 /* 3_Grilled_Steelhead_Trout_Sandwich.png */,
+				780EF0A6207E7A000061DF51 /* 4_Pesto_Linguini.png */,
+				780EF0A7207E7A010061DF51 /* 5_Chicken_Noodle_Soup.png */,
+				780EF0A0207E7A000061DF51 /* 6_Italian_Salad.png */,
+				780EF0A2207E7A000061DF51 /* 7_Pizza_San_Giovanni.png */,
+				780EF09E207E7A000061DF51 /* 8_Pizza_Vesuvio.png */,
+				780EF09F207E7A000061DF51 /* 9_Pizza_al_Tonno.png */,
+				780EF0A1207E7A000061DF51 /* 10_Pizza_Paprika.png */,
 				7824D9F22074FE380041BE59 /* menu.json */,
 				7824D9F12074FE380041BE59 /* settings.json */,
 			);
@@ -327,9 +360,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7824D9F32074FE380041BE59 /* settings.json in Resources */,
+				780EF0AB207E7A010061DF51 /* 6_Italian_Salad.png in Resources */,
+				780EF0AF207E7A010061DF51 /* 0_Placeholder.png in Resources */,
 				7824D9C32074FD920041BE59 /* Assets.xcassets in Resources */,
+				780EF0B0207E7A010061DF51 /* 3_Grilled_Steelhead_Trout_Sandwich.png in Resources */,
+				780EF0AA207E7A010061DF51 /* 9_Pizza_al_Tonno.png in Resources */,
 				7824D9F42074FE380041BE59 /* menu.json in Resources */,
+				780EF0B1207E7A010061DF51 /* 4_Pesto_Linguini.png in Resources */,
+				780EF0B2207E7A010061DF51 /* 5_Chicken_Noodle_Soup.png in Resources */,
+				780EF0A9207E7A010061DF51 /* 8_Pizza_Vesuvio.png in Resources */,
+				780EF0AE207E7A010061DF51 /* 2_Margherita_Pizza.png in Resources */,
+				780EF0AD207E7A010061DF51 /* 7_Pizza_San_Giovanni.png in Resources */,
+				780EF0AC207E7A010061DF51 /* 10_Pizza_Paprika.png in Resources */,
 				7824D9C62074FD920041BE59 /* Main.storyboard in Resources */,
+				780EF0A8207E7A010061DF51 /* 1_Spaghetti_Meatballs.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,10 +31,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         reloadData()
     }
     
-    func reloadData() {
+    func reloadData() -> (Bool, String) {
         // will load or reload the menu data)
         loadJSONFromBundle()
-        checkJSONFile(fileName: "menu", fileExtension: "json")
+        return checkJSONFile(fileName: "menu", fileExtension: "json")
     }
     
     func applicationWillTerminate(_ aNotification: Notification) {

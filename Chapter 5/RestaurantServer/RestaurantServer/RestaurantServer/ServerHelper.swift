@@ -79,6 +79,16 @@ func handleGreeting(request: HTTPRequest) -> HTTPResponse {
     return HTTPResponse(content: "Hello \(name.capitalized)")
 }
 
+func handleImage(request: HTTPRequest) -> HTTPResponse {
+    let name = request.params["name"] ?? "na"
+    // try to find image in bundle
+    print("Hi");
+    
+    // else try to find image in app folder
+    
+    return HTTPResponse(content: "Hello \(name.capitalized)")
+}
+
 extension Server {
     func addRoutes() {
         self.route(.get, "menu", showMenu)
@@ -86,7 +96,9 @@ extension Server {
         self.route(.get, "categories", showCategories)
         self.route(.get, "categories/", showCategories)
         self.route(.post, "order", processOrder)
-        self.route(.post, "order", processOrder)
+        self.route(.post, "order/", processOrder)
+        self.serveBundle(.main, "/")
+        //self.route(.get, "image/:name", handleImage)
         self.route(.get, "/") { (.ok, showMainPage()) }
     }
 }
