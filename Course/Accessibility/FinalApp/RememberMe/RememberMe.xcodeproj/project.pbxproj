@@ -21,6 +21,7 @@
 		780CD93B20A87EBC000944D8 /* student10.png in Resources */ = {isa = PBXBuildFile; fileRef = 780CD93120A87EBC000944D8 /* student10.png */; };
 		780CD93C20A87EBC000944D8 /* student9.png in Resources */ = {isa = PBXBuildFile; fileRef = 780CD93220A87EBC000944D8 /* student9.png */; };
 		780CD93E20A87F0F000944D8 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780CD93D20A87F0F000944D8 /* StudentTableViewCell.swift */; };
+		786C1B2320A8E75900F9C91F /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 786C1B2220A8E75900F9C91F /* readme.md */; };
 		7889270520A86788009AA2E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889270420A86788009AA2E5 /* AppDelegate.swift */; };
 		7889270720A86788009AA2E5 /* StudentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7889270620A86788009AA2E5 /* StudentDetailsVC.swift */; };
 		7889270A20A86788009AA2E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7889270820A86788009AA2E5 /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 		780CD93120A87EBC000944D8 /* student10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student10.png; sourceTree = "<group>"; };
 		780CD93220A87EBC000944D8 /* student9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student9.png; sourceTree = "<group>"; };
 		780CD93D20A87F0F000944D8 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		786C1B2220A8E75900F9C91F /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		7889270120A86788009AA2E5 /* RememberMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7889270420A86788009AA2E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7889270620A86788009AA2E5 /* StudentDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsVC.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		788926F820A86788009AA2E5 = {
 			isa = PBXGroup;
 			children = (
+				786C1B2220A8E75900F9C91F /* readme.md */,
 				7889270320A86788009AA2E5 /* RememberMe */,
 				7889271820A86789009AA2E5 /* RememberMeTests */,
 				7889272320A86789009AA2E5 /* RememberMeUITests */,
@@ -299,6 +302,7 @@
 				7889270F20A86789009AA2E5 /* LaunchScreen.storyboard in Resources */,
 				780CD93A20A87EBC000944D8 /* student8.png in Resources */,
 				7889270C20A86789009AA2E5 /* Assets.xcassets in Resources */,
+				786C1B2320A8E75900F9C91F /* readme.md in Resources */,
 				780CD93C20A87EBC000944D8 /* student9.png in Resources */,
 				780CD93320A87EBC000944D8 /* student4.png in Resources */,
 				780CD93520A87EBC000944D8 /* student7.png in Resources */,

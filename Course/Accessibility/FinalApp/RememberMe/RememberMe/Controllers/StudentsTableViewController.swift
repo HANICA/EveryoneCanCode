@@ -47,20 +47,23 @@ class StudentsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier, for: indexPath) as! StudentTableViewCell
-            // Note: force unwrap, normally you want to do an if let but cell needs to be something, if your reuse identifier is incorrect your app will crash
-            if let person = personsModel.students[indexPath.row] as? Student {
-                cell.applyAccessibility(person)
-                cell.imageView?.image = UIImage(named: person.image)
-                cell.nameLabel.text = person.firstname + " " + person.lastname
-            }
-        // Configure the cell...
+
+        let person = personsModel.students[indexPath.row]
+        cell.applyAccessibility(person)
+        cell.imageView?.image = UIImage(named: person.image)
+        cell.nameLabel.text = person.firstname + " " + person.lastname
+        
+        let heightInPoints = UIImage(named: person.image)?.size.height
+        let heightInPixels = heightInPoints! * (UIImage(named: person.image)?.scale)!
+        self.tableview.estimatedRowHeight = heightInPixels
+        // ToDo: optimize, now it is calculated every time...
 
         return cell
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 96.0
-        return UITableViewAutomaticDimension
+        return self.tableview.estimatedRowHeight / 2.5
+        //was a magic number: 96.0, now we compute it...
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
