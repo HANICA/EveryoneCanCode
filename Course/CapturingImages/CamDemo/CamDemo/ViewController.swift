@@ -81,7 +81,7 @@ class ViewController : UIViewController, UINavigationControllerDelegate, UIImage
                     photoInfoLabel.text = "Image saved to \(fileURL.path)"
                 } catch {
                     print("error saving file:", error)
-                    photoInfoLabel.text = "Could not save file :("
+                    photoInfoLabel.text = "Alas, could not save file :("
 
                 }
             }
@@ -98,7 +98,6 @@ class ViewController : UIViewController, UINavigationControllerDelegate, UIImage
         let minutes = calendar.component(.minute, from: date)
         let second = calendar.component(.second, from: date)
         return "\(day)\(month)\(year)\(hour)\(minutes)\(second)"
-        
     }
     
 }
