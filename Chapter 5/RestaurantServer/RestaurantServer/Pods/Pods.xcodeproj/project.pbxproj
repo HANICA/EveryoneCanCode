@@ -7,94 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02CC1571CF155BF452CA11D7CF3FB688 /* TCPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF6E455DD46EDA5C0FF16230FB852 /* TCPSocket.swift */; };
-		08599E7786F23EB0806F19ABA717A46F /* Pods-RestaurantServerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE93D6A8A4FE245F53C2685AE7C174C /* Pods-RestaurantServerUITests-dummy.m */; };
-		09CD1AD0ADD7849A3DBEC30124B9E9C3 /* Pods-RestaurantServerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F279B71A86C9DBBF25CC26707E21F48 /* Pods-RestaurantServerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09E4466B16421197C982B0664822D37F /* DateFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05804785578AE2AFE6B2F9D4732E7E49 /* DateFormatter+Ext.swift */; };
 		0E29BFED3333BB3C8E6E97C9DBC90B00 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1F5B4D36F6A7DC438D6464F452E8B4 /* CoreServices.framework */; };
-		0EE6757DD1EEE92F4C17A02E18AE520B /* TLSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F4DE0FB96137B0CB465FB5D384DCE /* TLSConfig.swift */; };
-		10FFD57FB5E1BDA90B66E488DB2ED978 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FA7850D79AEB8398534AD97A99089A /* HTTPClient.swift */; };
-		115307A4AEA117D00AA0E10F0D8DAE16 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90DA3F941F40B5F46853875C8A778E8 /* String+Ext.swift */; };
-		1349B202083E7FAA7F96F8F94901B166 /* DateFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0EEAA7D6358405174B43BB466117E5 /* DateFormatter+Ext.swift */; };
-		1373F95518F554A302EBFE00CFACEAE1 /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6269C904E4BAF68B8ED425EF8B325C65 /* DispatchTimer.swift */; };
-		15F06A48BDC22578E7E17A2374285F31 /* WebSocketError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7F28A8C05E776DF57795CDE8E971A /* WebSocketError.swift */; };
+		16973F5A569D77A17262A077DFBDD035 /* DataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF585E94B2F48044CB23D4095E4CABF /* DataStream.swift */; };
+		17FE2ED3EF116B8C7F0CB0455D0758E0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549E46C96262482473D9C2AE1055EE45 /* Cocoa.framework */; };
 		1BD8A1A73292AD7481F7E735FC581A6C /* HTTPParserC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807792BF88C8C7F690109B7F526007F9 /* HTTPParserC.framework */; };
-		1E578BF841828B37D07D577EFF17C614 /* WebSocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707DCD9EDC868DE94F8E92642B5AE6A /* WebSocketParser.swift */; };
-		1FFA86D8FA3726FF295CA1B52553ADD4 /* HTTPRequest+Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B86C873AFF18CFDF5353CE42126F46B /* HTTPRequest+Host.swift */; };
-		2658B3C866C7567E894383570DF6911E /* WebSocketMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898DA7B9E1236D9C5ABFF29A02306632 /* WebSocketMessage.swift */; };
-		27510197A57397F2945614078223E5C9 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7D11FF9410D9665584B72D05AFBE9 /* SHA1.swift */; };
-		2BFFB1E1BF9D1336918D06E299CEEA94 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0355F4B5ACE0E3C715B92CA132D2B /* HTTPRequest.swift */; };
-		35A3C5624F0B5D947EECD45023EAAC80 /* Pods-RestaurantServerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD23D975233775C2B9E24F3552F4974 /* Pods-RestaurantServerTests-dummy.m */; };
-		35BD3FCEA0AB58A3E549AECC6EC1EF05 /* FileManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A38B7DC0BD10A7AB3E634510A01A08 /* FileManager+Ext.swift */; };
-		36A736E9D9898578A51081F5088B47B0 /* HTTPParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D3E41931F35511814C76B6970B790E /* HTTPParser.swift */; };
-		3994AAEEA98E4804F4017E853FB5A8C5 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496A93EA4E9D5A51CB7359463E67AFA /* HTTPResponse.swift */; };
-		3A74F70C816CEFC4DB47AC105DC7CAA2 /* NSRegularExpression+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAFF8B22276978476FFFE64B18C2ED9 /* NSRegularExpression+Ext.swift */; };
-		3AFB18589ED16FED283945C6BFE2CEEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549E46C96262482473D9C2AE1055EE45 /* Cocoa.framework */; };
-		3C4329F8B0692CD497F22FC48138B9A6 /* UInt+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57A99FD5D45BDB630104B0917DBF04D /* UInt+Ext.swift */; };
-		3F2D6273F254CF19EEAAFE12B518A50C /* HTTPRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8AD00790F30A94E7BAA25F793628EA /* HTTPRoute.swift */; };
-		40BF13BDC2EB854D9E2096BFF7FD1400 /* http_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 781AB4D4654B3DFBB6F1A66FFE0929D2 /* http_parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45FA0550755F9D4CBBDAB3F5FFC26858 /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176C4B04512F17BD0D83F7F3F46C3C5 /* HTTPHeader.swift */; };
-		4666FC3E58A3318EAAFCDBB79475F3F7 /* HTTPErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E364C591A0856C8D53F2D385FEDD6151 /* HTTPErrorHandler.swift */; };
-		4798F4B538B00C609FCC0F65A93BD6D5 /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8A15DEEAB79F01D82CBC6444B73D60 /* URI.swift */; };
-		47ECC4A8A1AB6815058C59D0329E8081 /* HTTPWebSocketHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DF49CF4182A701A72CFB857C652C5 /* HTTPWebSocketHandler.swift */; };
-		4952E2D7A008A93D95AEA6AA7F062023 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250B568FD91979F2A345591A85B14AA8 /* Array+Ext.swift */; };
-		543ABFC581D3EFE14567271C79651F2C /* WebSocketErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4105DD63D137ED8341EB5E2217DFFB2 /* WebSocketErrorHandler.swift */; };
-		54FC72C3EAC6CB3E333BFB3F5FBE6D96 /* Telegraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 939C0215DC19F776D3DB9AA46A28962E /* Telegraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C6D2058D3C37B4B7BB5E1D975B6706B /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94846CF68A7E102A512661F5BB8011 /* Data+Ext.swift */; };
+		34F6007EAAD878C3AF2D7035BC4ACF10 /* SynchronizedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9095C800C2E32915192111AC95C5DC00 /* SynchronizedSet.swift */; };
+		37965A5E931C5A9566615EE638694963 /* Telegraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 491F7C3033302B28D57DCBB5BE0B6D09 /* Telegraph-dummy.m */; };
+		40BF13BDC2EB854D9E2096BFF7FD1400 /* http_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A497F0B28639B6A4C64CE448798E3F5 /* http_parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F6D26DE27C6BDD4B1F21443C2D430BC /* UInt+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6747C8B398981E458AE38DBCD85CF4 /* UInt+Ext.swift */; };
+		5299D36118AA7E9E308447CEF3E7173F /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D469ACF66BD2866B4D1DFA4E0879EA54 /* String+Ext.swift */; };
+		53B95A0EA233EAC360FE53091AA62BBC /* Pods-RestaurantServerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE93D6A8A4FE245F53C2685AE7C174C /* Pods-RestaurantServerUITests-dummy.m */; };
+		54FC72C3EAC6CB3E333BFB3F5FBE6D96 /* Telegraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A503D94A2A7A6C9A15976CDB2692FF80 /* Telegraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57D2EA31C95046B6C2FB8B8A7627896D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549E46C96262482473D9C2AE1055EE45 /* Cocoa.framework */; };
-		591E427135AFCA1AB1355F35F6AE993B /* WebSocketMessageDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9907FF8E85A2394F18E7D4033DD911BB /* WebSocketMessageDefaultHandler.swift */; };
+		5D94ECC775D68C422838734427BEADF9 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7605DDD45ACA3BCAF0A88E6C1BFE8C2 /* Array+Ext.swift */; };
 		5F29CE01024A6F380829E7971733B99D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549E46C96262482473D9C2AE1055EE45 /* Cocoa.framework */; };
-		6527FB62BF32C668F47FC200E4D34BFE /* TLSPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F1BB23A43487E5055FE48E1688C5E /* TLSPolicy.swift */; };
-		71B4C4FE27CD3B28EDCEEF8FDC3828D7 /* HTTPRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75BE87E1D58986C525E233EB14651E0 /* HTTPRequestHandler.swift */; };
-		72E351339011DD76394B93CA71BDAA65 /* HTTPFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6378E3685EABA27024E1359890058A44 /* HTTPFileHandler.swift */; };
-		77041076B1087BEAE8A76113C7171DB7 /* URL+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36EF8893B40828CFABA33D18E056F94 /* URL+Ext.swift */; };
-		776AC4AB48B909E908892611D13C9E20 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED86EC69733D18A761EDD6CE9EF877A /* HTTPMethod.swift */; };
-		794C6F3F2AD710E75D0FF3C6CD499D3C /* Streams.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199C1411A866AEF3F747483E7485CF5 /* Streams.swift */; };
-		7A0EBE855422C7776ED839D4F33E0059 /* WebSocketErrorDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD92A2DF8B9BFA0113EA08221594EF24 /* WebSocketErrorDefaultHandler.swift */; };
-		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9C8DA4C20C8FD331FFD32FC631F582 /* CocoaAsyncSocket-dummy.m */; };
-		8253AB902A8876ACACCD96E32ED12880 /* HTTPStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B2D64F0B3C346AB6F09488F88113B /* HTTPStatus.swift */; };
-		83EFDB6ADF5B81E98E770AA718D12BC2 /* TCPListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3737EFAEBFAC05176D5F8AE260B55330 /* TCPListener.swift */; };
-		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F2E6C42493CD7A3CE319949B80690 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		87935B52DF478EAF60D5CFF5E4CB7FBA /* WebSocketConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A25EF2CB0A9DE5D4FE9F5BFE17F8B5 /* WebSocketConfig.swift */; };
-		8B3A92ED782CC2721DCC6DA25EE0517F /* Telegraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D05ED0F3477C2568973376DB430159D /* Telegraph-dummy.m */; };
-		8DD43538EE7261B53FBB5483E535B829 /* HTTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EABA02FB156AAFDA911A695998CA1A /* HTTPConnection.swift */; };
-		93853D31EC11137E8EA0984B660BF2F0 /* Client+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EEED4778EE0B956C5E6C7B0194CD1E /* Client+Config.swift */; };
-		93BE5FB2490C9E016619372677FD86D1 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EC843018A33EFE5C33C9CC8C51F50E /* WebSocket.swift */; };
-		93F796DA7BCE72F8CBEEEE714BF9FCE5 /* CertificateIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A0942BBF39FBA8DF60BA8FF31F669A /* CertificateIdentity.swift */; };
-		9552C67FBABD045977D49F4049BC34CF /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F346057EBDA9C2DA675933342AD93AD2 /* HTTPError.swift */; };
+		749A84E439FCA555CFC8AB833529BA63 /* NSRegularExpression+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1987D65AF5832098FB34D60D35A751D2 /* NSRegularExpression+Ext.swift */; };
+		76D9FBD03A0D72E60DCCC3D5F15D3174 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE68C0320894064E73F0B4228724340 /* CocoaAsyncSocket-dummy.m */; };
+		8147540F667E420441ABB7E6EFB90588 /* Pods-RestaurantServerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD23D975233775C2B9E24F3552F4974 /* Pods-RestaurantServerTests-dummy.m */; };
+		869239CA22719DCDB065FBFC4C925885 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549E46C96262482473D9C2AE1055EE45 /* Cocoa.framework */; };
+		8FF3ADD7954E5D250C8C1E19F55CCE1E /* Pods-RestaurantServerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F279B71A86C9DBBF25CC26707E21F48 /* Pods-RestaurantServerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96460959DFC55B0856C23857AF67E1D6 /* Pods-RestaurantServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE0293773A3A4FD2D5FC9B33FE8DC034 /* Pods-RestaurantServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CC3D044783F8E1FB6DA45007057CD3A /* Server+Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC207BC6307C7873373F2FADFCE835 /* Server+Routing.swift */; };
-		9DDD04A9BE2B88E2453BE7E1E15FC1C4 /* HTTPParserC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D95BADF94F2199B762A63F2E613F18 /* HTTPParserC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E872612911206F33F2962C6F4B3D553 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = AF78C5F493F113E711AF26A63DFF2109 /* http_parser.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9DDD04A9BE2B88E2453BE7E1E15FC1C4 /* HTTPParserC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40499AF14C8240F73956231B1EC38806 /* HTTPParserC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E872612911206F33F2962C6F4B3D553 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E103A3C2F8398A6797842D3DA1EC1B6 /* http_parser.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9E9A7230B20E70ADD0FEE838A0AA075B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549E46C96262482473D9C2AE1055EE45 /* Cocoa.framework */; };
-		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = CC483B326C505D7866C2017A36537D17 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A98E2CB1D62F9C80EF1F631F090A8EAD /* Server+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8A3F934FD87869061968830BCC0C8B /* Server+Config.swift */; };
-		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4B53394B210AD71CB2E69C3FA31963 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADFFCE81549D77F5AD3C8F9A07128B86 /* WebSocketMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800EB0CDA9A41CE493AA8F9DD285E31F /* WebSocketMessageHandler.swift */; };
-		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C51C84B815D384DCBD90FE9C774B0F4 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B40741848D11D6D1A4C77960F07DAB49 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA848CF6ED8EFBEDC3D1EA9CB983938 /* KeychainManager.swift */; };
-		B579009B8201374E5686BEEEE80CD41A /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CAA7E1E0FDDD068A3E51ED10A8B61A /* KeychainError.swift */; };
-		BEBC5543390BC9475EFA12E16B008F23 /* ServerWebSocketDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAE1F45F5270B65ABCCD631111DB88 /* ServerWebSocketDelegate.swift */; };
+		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 488401BB8528DCB8799BCFC432CDF828 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4F2949621DECD07AC4BED2E3AF485F /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA92A1A166BA473303699E867093A4BB /* FileManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C92B7D9A0966A8A144B3566FF97FEE /* FileManager+Ext.swift */; };
 		C029D16EDA8A720F493EFAF18E5126DB /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9EB7569F32C6758B48E184EA69C1F4 /* CocoaAsyncSocket.framework */; };
-		C1C327EB8EB1A53D1DA09F243801BA6D /* HTTPVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D748FF3FFDA7346A62A734A7A36031 /* HTTPVersion.swift */; };
-		C2EB9E2C1D2156567ECA3A3F22A7A30A /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861E6464BB1DBFC3630427909F307E45 /* Server.swift */; };
-		C30FB72C52AD3056E330AAAF06B91F62 /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB368983CC4C504356EDA094A7A38552 /* Certificate.swift */; };
-		C83DD6F046740560A316332C83151ED6 /* HTTPMessage+WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CC94777E70B1898F39E0AC9EFBD83 /* HTTPMessage+WebSocket.swift */; };
-		C917B663A6FBDDA841A22467437B4599 /* HTTPErrorDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9EDB0822677DE50D3D32026B71EBF4 /* HTTPErrorDefaultHandler.swift */; };
-		CC728A28E84E4788A41FD56F39A0157F /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C91F102031369A9C03F65E92B2D7FF /* WebSocketClient.swift */; };
-		CF0F7FBE25989AE26DCA75E8B54D954D /* Pods-RestaurantServerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD40B47A636D6C6FE2738D57CBEF00E /* Pods-RestaurantServerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D023AE712D1C225900C9A803892EFFD8 /* HTTPRouteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00C473B7A910A84ADD606765A7CC97A /* HTTPRouteHandler.swift */; };
-		D1DCF3BEFF3530547F10BA7AB4138109 /* HTTPHeader+WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288C94934322B2847345CA27054FBC9 /* HTTPHeader+WebSocket.swift */; };
+		C471CD42B142BA9D6FDEE654F4B90D6E /* Pods-RestaurantServerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD40B47A636D6C6FE2738D57CBEF00E /* Pods-RestaurantServerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C72E64802C5BF685D3A6E2E7D82596D7 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4191421C9234AD3BC19AD848BE87F620 /* GCDAsyncSocket.m */; };
 		D3010B4B7050CF2EE7ED79F604F2A434 /* Pods-RestaurantServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D1DABE5CDB1679502B54FD9CE829DD /* Pods-RestaurantServer-dummy.m */; };
-		D3EA74BE4BB59D171B205C2029915AA8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549E46C96262482473D9C2AE1055EE45 /* Cocoa.framework */; };
+		D37A91258103DEFDFAFF55A001D97D02 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 93ADD12001B19CF2EED8989588083829 /* GCDAsyncUdpSocket.m */; };
 		D74151E82696AE966F792828BB81DB6F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549E46C96262482473D9C2AE1055EE45 /* Cocoa.framework */; };
-		DE1FD07C90EC726484724E41F83D1BA3 /* HTTPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168E95E85E8B54404DC0DC6611CD937 /* HTTPMessage.swift */; };
-		DEE171CD6754EB4466FB1F7255F5E407 /* HTTPParserC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461002FB8B82AF158526F1D7302748A /* HTTPParserC-dummy.m */; };
-		E02D34D3A1CBB9AC72A25249CEC3B8FE /* TCPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE54EAFA5DBB36D048D8BA63C1E82AD0 /* TCPConnection.swift */; };
-		E0E3EDE59971CB95FA3BFB325F4B3A50 /* DispatchQueue+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC7A78FAE57D5E9CE30929F78BB8E1 /* DispatchQueue+Ext.swift */; };
-		E1F18FCF8A3F24AB9FD35E25D36D653C /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3A4AD8E855A396878FF2309E2AD44 /* Data+Ext.swift */; };
-		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC58392CE9A8D5291DFE81CA58B1186 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8ABB0D1AAE80E389A2447739D87E354 /* WebSocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9ED1CA9E9CDA27772D24E06B77874 /* WebSocketConnection.swift */; };
-		ED3BF1F4AAEE7744985DE0F9942256BB /* WebSocketMessage+Write.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE13D4AA642A7F4E8D593B626DDA03E /* WebSocketMessage+Write.swift */; };
-		F7668708CED65A6C61121A2DA93CF56F /* HTTPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976211F5B55E18BB321E37B03145E53 /* HTTPConfig.swift */; };
+		DEE171CD6754EB4466FB1F7255F5E407 /* HTTPParserC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 091A9A068FB26DE5148C46A7F3B807B5 /* HTTPParserC-dummy.m */; };
+		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBAB92C8586A465972E85DB00FE5348B /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6012040E297BD6CDB51F1C4A4DA5BB /* URL+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDE275FAB3A98930EFE1D2AE414DE6E /* URL+Ext.swift */; };
 		FFA692069B5F985BE7590844ED9F4B05 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36FC01C1FC4EFE91837A1E5D0D24C5D /* Security.framework */; };
 /* End PBXBuildFile section */
 
@@ -106,12 +55,26 @@
 			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
 			remoteInfo = CocoaAsyncSocket;
 		};
+		3AB18B2F7D200745F5729ADA0A4A0609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A92A392D098130B5AF09BBEFDCEA29;
+			remoteInfo = "Pods-RestaurantServer";
+		};
 		4B2B8AC6408FB335BA5F70D8529D80DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4F63B6599F6376EBE6567019B9DA42B;
 			remoteInfo = HTTPParserC;
+		};
+		8B198FD0E5AE58567F34DC6AA9499562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A92A392D098130B5AF09BBEFDCEA29;
+			remoteInfo = "Pods-RestaurantServer";
 		};
 		9861090B259AFA19CA5F0FB1AE927E20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -137,141 +100,106 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BAFF8B22276978476FFFE64B18C2ED9 /* NSRegularExpression+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+Ext.swift"; path = "Sources/Helpers/NSRegularExpression+Ext.swift"; sourceTree = "<group>"; };
-		0FDBF6E455DD46EDA5C0FF16230FB852 /* TCPSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPSocket.swift; path = Sources/Transport/TCPSocket.swift; sourceTree = "<group>"; };
-		1A9EDF8BF4550F93C750045F6B5254F6 /* HTTPParserC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTTPParserC.modulemap; sourceTree = "<group>"; };
-		1B8A15DEEAB79F01D82CBC6444B73D60 /* URI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URI.swift; path = Sources/Transport/URI.swift; sourceTree = "<group>"; };
+		05804785578AE2AFE6B2F9D4732E7E49 /* DateFormatter+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+Ext.swift"; path = "Sources/Helpers/Extensions/DateFormatter+Ext.swift"; sourceTree = "<group>"; };
+		091A9A068FB26DE5148C46A7F3B807B5 /* HTTPParserC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPParserC-dummy.m"; sourceTree = "<group>"; };
+		0FE68C0320894064E73F0B4228724340 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		106D73E2575520A09487783CD3905E75 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		1987D65AF5832098FB34D60D35A751D2 /* NSRegularExpression+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+Ext.swift"; path = "Sources/Helpers/Extensions/NSRegularExpression+Ext.swift"; sourceTree = "<group>"; };
 		1FD23D975233775C2B9E24F3552F4974 /* Pods-RestaurantServerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RestaurantServerTests-dummy.m"; sourceTree = "<group>"; };
-		2454734F25B6282B6F315041849D3CA1 /* HTTPParserC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTTPParserC.xcconfig; sourceTree = "<group>"; };
-		250B568FD91979F2A345591A85B14AA8 /* Array+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Ext.swift"; path = "Sources/Helpers/Array+Ext.swift"; sourceTree = "<group>"; };
-		26D3E41931F35511814C76B6970B790E /* HTTPParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPParser.swift; path = Sources/Protocols/HTTP/Models/HTTPParser.swift; sourceTree = "<group>"; };
-		282CC94777E70B1898F39E0AC9EFBD83 /* HTTPMessage+WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HTTPMessage+WebSocket.swift"; path = "Sources/Protocols/WebSockets/Models/HTTPMessage+WebSocket.swift"; sourceTree = "<group>"; };
 		2928B28BFCA8A7B4719B081933DAE6EC /* Pods-RestaurantServer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RestaurantServer-acknowledgements.plist"; sourceTree = "<group>"; };
-		2B8AD00790F30A94E7BAA25F793628EA /* HTTPRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPRoute.swift; path = Sources/Protocols/HTTP/Routing/HTTPRoute.swift; sourceTree = "<group>"; };
+		2AD4309D09E8EE2B94DC67E576405284 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 		2BC70C8821BA3D89FCB5266F076A5E63 /* Pods-RestaurantServerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestaurantServerUITests-resources.sh"; sourceTree = "<group>"; };
 		2BDC6CD1BDCB4795DA619B8A462CB516 /* Pods-RestaurantServerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RestaurantServerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2CBA4EA977B5A5B6A47E5C99D1B70769 /* Telegraph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Telegraph-prefix.pch"; sourceTree = "<group>"; };
-		2D05ED0F3477C2568973376DB430159D /* Telegraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Telegraph-dummy.m"; sourceTree = "<group>"; };
-		2DE13D4AA642A7F4E8D593B626DDA03E /* WebSocketMessage+Write.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "WebSocketMessage+Write.swift"; path = "Sources/Protocols/WebSockets/Models/WebSocketMessage+Write.swift"; sourceTree = "<group>"; };
-		2E116D6449C97E74D6248E67545BE3AC /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		2E6B3209F9823C7645C1CFD2B69AFB8C /* Pods-RestaurantServer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RestaurantServer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3176C4B04512F17BD0D83F7F3F46C3C5 /* HTTPHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeader.swift; path = Sources/Protocols/HTTP/Models/HTTPHeader.swift; sourceTree = "<group>"; };
+		2F94846CF68A7E102A512661F5BB8011 /* Data+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Ext.swift"; path = "Sources/Helpers/Extensions/Data+Ext.swift"; sourceTree = "<group>"; };
 		318E0E8C00398A805598DB06B996CD09 /* Pods-RestaurantServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestaurantServer.release.xcconfig"; sourceTree = "<group>"; };
-		33EC843018A33EFE5C33C9CC8C51F50E /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Protocols/WebSockets/Models/WebSocket.swift; sourceTree = "<group>"; };
 		36D1DABE5CDB1679502B54FD9CE829DD /* Pods-RestaurantServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RestaurantServer-dummy.m"; sourceTree = "<group>"; };
-		3737EFAEBFAC05176D5F8AE260B55330 /* TCPListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPListener.swift; path = Sources/Transport/TCPListener.swift; sourceTree = "<group>"; };
-		37E8DBA4F877DF0CDA027F01642466FE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B86C873AFF18CFDF5353CE42126F46B /* HTTPRequest+Host.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HTTPRequest+Host.swift"; path = "Sources/Protocols/HTTP/Models/HTTPRequest+Host.swift"; sourceTree = "<group>"; };
-		3F8A3F934FD87869061968830BCC0C8B /* Server+Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Server+Config.swift"; path = "Sources/Server/Server+Config.swift"; sourceTree = "<group>"; };
-		4461002FB8B82AF158526F1D7302748A /* HTTPParserC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTTPParserC-dummy.m"; sourceTree = "<group>"; };
+		3E103A3C2F8398A6797842D3DA1EC1B6 /* http_parser.c */ = {isa = PBXFileReference; includeInIndex = 1; name = http_parser.c; path = Sources/http_parser.c; sourceTree = "<group>"; };
+		40499AF14C8240F73956231B1EC38806 /* HTTPParserC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPParserC-umbrella.h"; sourceTree = "<group>"; };
+		4191421C9234AD3BC19AD848BE87F620 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		4725A8352AAF2026CF4A4FB3466A420B /* Pods-RestaurantServerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestaurantServerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		48F9ED1CA9E9CDA27772D24E06B77874 /* WebSocketConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketConnection.swift; path = Sources/Protocols/WebSockets/Models/WebSocketConnection.swift; sourceTree = "<group>"; };
-		4976211F5B55E18BB321E37B03145E53 /* HTTPConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPConfig.swift; path = Sources/Protocols/HTTP/Models/HTTPConfig.swift; sourceTree = "<group>"; };
+		488401BB8528DCB8799BCFC432CDF828 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		491F7C3033302B28D57DCBB5BE0B6D09 /* Telegraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Telegraph-dummy.m"; sourceTree = "<group>"; };
 		4AD40B47A636D6C6FE2738D57CBEF00E /* Pods-RestaurantServerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RestaurantServerTests-umbrella.h"; sourceTree = "<group>"; };
 		4E026C8B665A43DE1154CA253E20B307 /* Pods-RestaurantServerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RestaurantServerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EF585E94B2F48044CB23D4095E4CABF /* DataStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataStream.swift; path = Sources/Transport/DataStream.swift; sourceTree = "<group>"; };
 		50A3CDD5DBF29638B7A26519347FC59A /* Pods-RestaurantServerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RestaurantServerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		549E46C96262482473D9C2AE1055EE45 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		55810B8D913258A7D6E07C8465871E0D /* HTTPParserC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTTPParserC.framework; path = HTTPParserC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56CAA7E1E0FDDD068A3E51ED10A8B61A /* KeychainError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainError.swift; path = Sources/Security/KeychainError.swift; sourceTree = "<group>"; };
-		5A99F389676B9383C56C7B8AA65124F5 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
-		5EDC207BC6307C7873373F2FADFCE835 /* Server+Routing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Server+Routing.swift"; path = "Sources/Protocols/HTTP/Routing/Server+Routing.swift"; sourceTree = "<group>"; };
 		5F279B71A86C9DBBF25CC26707E21F48 /* Pods-RestaurantServerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RestaurantServerUITests-umbrella.h"; sourceTree = "<group>"; };
-		5FC58392CE9A8D5291DFE81CA58B1186 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
-		6269C904E4BAF68B8ED425EF8B325C65 /* DispatchTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchTimer.swift; path = Sources/Helpers/DispatchTimer.swift; sourceTree = "<group>"; };
 		6291C15007BCC9540A34325ABD8C0C2B /* Pods-RestaurantServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestaurantServer.debug.xcconfig"; sourceTree = "<group>"; };
-		634B2D64F0B3C346AB6F09488F88113B /* HTTPStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPStatus.swift; path = Sources/Protocols/HTTP/Models/HTTPStatus.swift; sourceTree = "<group>"; };
-		6378E3685EABA27024E1359890058A44 /* HTTPFileHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPFileHandler.swift; path = Sources/Protocols/HTTP/Handlers/HTTPFileHandler.swift; sourceTree = "<group>"; };
 		645E1FD8E1AA3B511A31975E90933A65 /* Pods-RestaurantServerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestaurantServerUITests-frameworks.sh"; sourceTree = "<group>"; };
-		6496A93EA4E9D5A51CB7359463E67AFA /* HTTPResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPResponse.swift; path = Sources/Protocols/HTTP/Models/HTTPResponse.swift; sourceTree = "<group>"; };
-		69FA7850D79AEB8398534AD97A99089A /* HTTPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPClient.swift; path = Sources/Clients/HTTPClient.swift; sourceTree = "<group>"; };
-		6E9EDB0822677DE50D3D32026B71EBF4 /* HTTPErrorDefaultHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPErrorDefaultHandler.swift; path = Sources/Protocols/HTTP/Handlers/HTTPErrorDefaultHandler.swift; sourceTree = "<group>"; };
+		6C4F2949621DECD07AC4BED2E3AF485F /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		6FFF524BA4E95361EC70F070BA9D0F94 /* Pods-RestaurantServerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestaurantServerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		71A25EF2CB0A9DE5D4FE9F5BFE17F8B5 /* WebSocketConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketConfig.swift; path = Sources/Protocols/WebSockets/Models/WebSocketConfig.swift; sourceTree = "<group>"; };
 		75FF708C27F5956E9534F69CBB061496 /* Pods-RestaurantServerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestaurantServerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		779257091DF0CE964E35DFC24400A013 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77D748FF3FFDA7346A62A734A7A36031 /* HTTPVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPVersion.swift; path = Sources/Protocols/HTTP/Models/HTTPVersion.swift; sourceTree = "<group>"; };
-		781AB4D4654B3DFBB6F1A66FFE0929D2 /* http_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = http_parser.h; path = Sources/http_parser.h; sourceTree = "<group>"; };
-		79F3A4AD8E855A396878FF2309E2AD44 /* Data+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Ext.swift"; path = "Sources/Helpers/Data+Ext.swift"; sourceTree = "<group>"; };
-		7AB0355F4B5ACE0E3C715B92CA132D2B /* HTTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPRequest.swift; path = Sources/Protocols/HTTP/Models/HTTPRequest.swift; sourceTree = "<group>"; };
-		800EB0CDA9A41CE493AA8F9DD285E31F /* WebSocketMessageHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketMessageHandler.swift; path = Sources/Protocols/WebSockets/Handlers/WebSocketMessageHandler.swift; sourceTree = "<group>"; };
+		77C92B7D9A0966A8A144B3566FF97FEE /* FileManager+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+Ext.swift"; path = "Sources/Helpers/Extensions/FileManager+Ext.swift"; sourceTree = "<group>"; };
+		79DBE5ACEB4C13955C56834990245452 /* Telegraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Telegraph.modulemap; sourceTree = "<group>"; };
+		7AC46DEF5FAFD294F4457C3B0F76F4D1 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
 		807792BF88C8C7F690109B7F526007F9 /* HTTPParserC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTTPParserC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B931E4B9B962A2A3167C554ABFEBD8 /* Pods-RestaurantServerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestaurantServerTests-resources.sh"; sourceTree = "<group>"; };
-		861E6464BB1DBFC3630427909F307E45 /* Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Server.swift; path = Sources/Server/Server.swift; sourceTree = "<group>"; };
+		878860451FDB328F8A549957CF8574A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87AA5B9657DFB62700F38A5E29112F5F /* Pods-RestaurantServerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RestaurantServerUITests.modulemap"; sourceTree = "<group>"; };
-		898DA7B9E1236D9C5ABFF29A02306632 /* WebSocketMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketMessage.swift; path = Sources/Protocols/WebSockets/Models/WebSocketMessage.swift; sourceTree = "<group>"; };
-		8A1DF49CF4182A701A72CFB857C652C5 /* HTTPWebSocketHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPWebSocketHandler.swift; path = Sources/Protocols/WebSockets/Handlers/HTTPWebSocketHandler.swift; sourceTree = "<group>"; };
 		8C24EC4B8CEA6B2843257386F1B819F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92E7F28A8C05E776DF57795CDE8E971A /* WebSocketError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketError.swift; path = Sources/Protocols/WebSockets/Models/WebSocketError.swift; sourceTree = "<group>"; };
+		8D11A2AA69CD4AC609ED71EE88FE3F9C /* HTTPParserC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTTPParserC.modulemap; sourceTree = "<group>"; };
+		8F670360D69F051D55D3CBBEF4BB6BAF /* HTTPParserC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPParserC-prefix.pch"; sourceTree = "<group>"; };
+		9095C800C2E32915192111AC95C5DC00 /* SynchronizedSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedSet.swift; path = Sources/Helpers/SynchronizedSet.swift; sourceTree = "<group>"; };
 		930ED02A2B9F7CC57871E657D36FAC45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		939C0215DC19F776D3DB9AA46A28962E /* Telegraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Telegraph-umbrella.h"; sourceTree = "<group>"; };
+		939AE70FE334F2989B458BCB6D9B8B1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9907FF8E85A2394F18E7D4033DD911BB /* WebSocketMessageDefaultHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketMessageDefaultHandler.swift; path = Sources/Protocols/WebSockets/Handlers/WebSocketMessageDefaultHandler.swift; sourceTree = "<group>"; };
-		9A7F2E6C42493CD7A3CE319949B80690 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		9C4B53394B210AD71CB2E69C3FA31963 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		9C51C84B815D384DCBD90FE9C774B0F4 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		9DE7D11FF9410D9665584B72D05AFBE9 /* SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHA1.swift; path = Sources/Security/SHA1.swift; sourceTree = "<group>"; };
+		93ADD12001B19CF2EED8989588083829 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		953B50BC4F6E768A36E2959704BBBCF9 /* HTTPParserC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTTPParserC.xcconfig; sourceTree = "<group>"; };
+		9A497F0B28639B6A4C64CE448798E3F5 /* http_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = http_parser.h; path = Sources/http_parser.h; sourceTree = "<group>"; };
 		9F1F5B4D36F6A7DC438D6464F452E8B4 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		A168E95E85E8B54404DC0DC6611CD937 /* HTTPMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMessage.swift; path = Sources/Protocols/HTTP/Models/HTTPMessage.swift; sourceTree = "<group>"; };
-		A36EF8893B40828CFABA33D18E056F94 /* URL+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Ext.swift"; path = "Sources/Helpers/URL+Ext.swift"; sourceTree = "<group>"; };
-		A3D95BADF94F2199B762A63F2E613F18 /* HTTPParserC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPParserC-umbrella.h"; sourceTree = "<group>"; };
-		A57A99FD5D45BDB630104B0917DBF04D /* UInt+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt+Ext.swift"; path = "Sources/Helpers/UInt+Ext.swift"; sourceTree = "<group>"; };
-		A9EEED4778EE0B956C5E6C7B0194CD1E /* Client+Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Client+Config.swift"; path = "Sources/Clients/Client+Config.swift"; sourceTree = "<group>"; };
-		AAA848CF6ED8EFBEDC3D1EA9CB983938 /* KeychainManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainManager.swift; path = Sources/Security/KeychainManager.swift; sourceTree = "<group>"; };
-		AACC7A78FAE57D5E9CE30929F78BB8E1 /* DispatchQueue+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Ext.swift"; path = "Sources/Helpers/DispatchQueue+Ext.swift"; sourceTree = "<group>"; };
-		AB368983CC4C504356EDA094A7A38552 /* Certificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Certificate.swift; path = Sources/Security/Certificate.swift; sourceTree = "<group>"; };
+		A503D94A2A7A6C9A15976CDB2692FF80 /* Telegraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Telegraph-umbrella.h"; sourceTree = "<group>"; };
+		A75EA0292E9BA82B4632E981A9E388C3 /* Telegraph.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Telegraph.xcconfig; sourceTree = "<group>"; };
 		AB7956AFFE2DD4943C1ED746CBAB9687 /* Pods-RestaurantServerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestaurantServerTests-frameworks.sh"; sourceTree = "<group>"; };
-		AE54EAFA5DBB36D048D8BA63C1E82AD0 /* TCPConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPConnection.swift; path = Sources/Transport/TCPConnection.swift; sourceTree = "<group>"; };
-		AED86EC69733D18A761EDD6CE9EF877A /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Sources/Protocols/HTTP/Models/HTTPMethod.swift; sourceTree = "<group>"; };
-		AF78C5F493F113E711AF26A63DFF2109 /* http_parser.c */ = {isa = PBXFileReference; includeInIndex = 1; name = http_parser.c; path = Sources/http_parser.c; sourceTree = "<group>"; };
+		B3A8BB73567368403D18C843E2E4CA51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B587B2F91AFABA09EDD25AB17CBAB3A6 /* Pods-RestaurantServerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RestaurantServerTests.release.xcconfig"; sourceTree = "<group>"; };
-		B90DA3F941F40B5F46853875C8A778E8 /* String+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Ext.swift"; path = "Sources/Helpers/String+Ext.swift"; sourceTree = "<group>"; };
 		B9FF44860B5383BC3E49FB1A4783F11D /* Pods_RestaurantServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RestaurantServer.framework; path = "Pods-RestaurantServer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBBAE1F45F5270B65ABCCD631111DB88 /* ServerWebSocketDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerWebSocketDelegate.swift; path = Sources/Server/ServerWebSocketDelegate.swift; sourceTree = "<group>"; };
-		BD9C8DA4C20C8FD331FFD32FC631F582 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 		BE0293773A3A4FD2D5FC9B33FE8DC034 /* Pods-RestaurantServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RestaurantServer-umbrella.h"; sourceTree = "<group>"; };
-		BF0EEAA7D6358405174B43BB466117E5 /* DateFormatter+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+Ext.swift"; path = "Sources/Helpers/DateFormatter+Ext.swift"; sourceTree = "<group>"; };
-		C26F7F500C888CBD4A1C2098D770E3AA /* Telegraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Telegraph.modulemap; sourceTree = "<group>"; };
-		C288C94934322B2847345CA27054FBC9 /* HTTPHeader+WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HTTPHeader+WebSocket.swift"; path = "Sources/Protocols/WebSockets/Models/HTTPHeader+WebSocket.swift"; sourceTree = "<group>"; };
 		C372B88660E42546FD47204F9A85C9D1 /* Pods_RestaurantServerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RestaurantServerUITests.framework; path = "Pods-RestaurantServerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FE1CA6B78D185992FEBBE74270DF1C /* Pods-RestaurantServerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RestaurantServerTests.modulemap"; sourceTree = "<group>"; };
-		C4105DD63D137ED8341EB5E2217DFFB2 /* WebSocketErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketErrorHandler.swift; path = Sources/Protocols/WebSockets/Handlers/WebSocketErrorHandler.swift; sourceTree = "<group>"; };
-		C75BE87E1D58986C525E233EB14651E0 /* HTTPRequestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPRequestHandler.swift; path = Sources/Protocols/HTTP/Handlers/HTTPRequestHandler.swift; sourceTree = "<group>"; };
-		CA99DDA18A1E3D11782CED04FFD7CF79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC483B326C505D7866C2017A36537D17 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		C7605DDD45ACA3BCAF0A88E6C1BFE8C2 /* Array+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Ext.swift"; path = "Sources/Helpers/Extensions/Array+Ext.swift"; sourceTree = "<group>"; };
+		CA5BDCB73E156D1ECB0B380A1BB0F912 /* Telegraph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Telegraph-prefix.pch"; sourceTree = "<group>"; };
+		CCDE275FAB3A98930EFE1D2AE414DE6E /* URL+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Ext.swift"; path = "Sources/Helpers/Extensions/URL+Ext.swift"; sourceTree = "<group>"; };
 		CE9EB7569F32C6758B48E184EA69C1F4 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF1BE4D4F6BCADE5DC87881BE1379097 /* Telegraph.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Telegraph.xcconfig; sourceTree = "<group>"; };
 		D064E7C38006E32E764B72B3C5912A63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D36FC01C1FC4EFE91837A1E5D0D24C5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		D39C79FFB8A2DBBD9DF52CE0DB1BE8F7 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3A0942BBF39FBA8DF60BA8FF31F669A /* CertificateIdentity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CertificateIdentity.swift; path = Sources/Security/CertificateIdentity.swift; sourceTree = "<group>"; };
-		D707DCD9EDC868DE94F8E92642B5AE6A /* WebSocketParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketParser.swift; path = Sources/Protocols/WebSockets/Models/WebSocketParser.swift; sourceTree = "<group>"; };
+		D469ACF66BD2866B4D1DFA4E0879EA54 /* String+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Ext.swift"; path = "Sources/Helpers/Extensions/String+Ext.swift"; sourceTree = "<group>"; };
 		D934429E2F07551670AE2A434BAC9DE6 /* Pods-RestaurantServer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestaurantServer-frameworks.sh"; sourceTree = "<group>"; };
 		DA44707B7E84937A5890988CE4CCDFBF /* Pods-RestaurantServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RestaurantServer.modulemap"; sourceTree = "<group>"; };
 		DCBB1F6EC68115665528705A967B414E /* Pods_RestaurantServerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RestaurantServerTests.framework; path = "Pods-RestaurantServerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E261DF1E80578F02F6CBB44A3A273C6D /* Telegraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Telegraph.framework; path = Telegraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E364C591A0856C8D53F2D385FEDD6151 /* HTTPErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPErrorHandler.swift; path = Sources/Protocols/HTTP/Handlers/HTTPErrorHandler.swift; sourceTree = "<group>"; };
-		E3C91F102031369A9C03F65E92B2D7FF /* WebSocketClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketClient.swift; path = Sources/Clients/WebSocketClient.swift; sourceTree = "<group>"; };
 		E8F962204C0242D4BD73B4BBC9B934FD /* Pods-RestaurantServer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RestaurantServer-resources.sh"; sourceTree = "<group>"; };
-		E9EABA02FB156AAFDA911A695998CA1A /* HTTPConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPConnection.swift; path = Sources/Protocols/HTTP/Models/HTTPConnection.swift; sourceTree = "<group>"; };
-		F00C473B7A910A84ADD606765A7CC97A /* HTTPRouteHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPRouteHandler.swift; path = Sources/Protocols/HTTP/Routing/HTTPRouteHandler.swift; sourceTree = "<group>"; };
-		F16F1BB23A43487E5055FE48E1688C5E /* TLSPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLSPolicy.swift; path = Sources/Security/TLSPolicy.swift; sourceTree = "<group>"; };
-		F199C1411A866AEF3F747483E7485CF5 /* Streams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Streams.swift; path = Sources/Transport/Streams.swift; sourceTree = "<group>"; };
-		F1A38B7DC0BD10A7AB3E634510A01A08 /* FileManager+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+Ext.swift"; path = "Sources/Helpers/FileManager+Ext.swift"; sourceTree = "<group>"; };
-		F346057EBDA9C2DA675933342AD93AD2 /* HTTPError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPError.swift; path = Sources/Protocols/HTTP/Models/HTTPError.swift; sourceTree = "<group>"; };
-		F42F4DE0FB96137B0CB465FB5D384DCE /* TLSConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLSConfig.swift; path = Sources/Security/TLSConfig.swift; sourceTree = "<group>"; };
+		EB6747C8B398981E458AE38DBCD85CF4 /* UInt+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt+Ext.swift"; path = "Sources/Helpers/Extensions/UInt+Ext.swift"; sourceTree = "<group>"; };
+		EBAB92C8586A465972E85DB00FE5348B /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		F557AB645369DBAB5616460EE563A1B0 /* Pods-RestaurantServerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RestaurantServerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F59C6FFE406229A6C3EFA733C70C414E /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
-		FC089699D4EB4859619FC2E377D629E2 /* HTTPParserC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTTPParserC-prefix.pch"; sourceTree = "<group>"; };
-		FD92A2DF8B9BFA0113EA08221594EF24 /* WebSocketErrorDefaultHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocketErrorDefaultHandler.swift; path = Sources/Protocols/WebSockets/Handlers/WebSocketErrorDefaultHandler.swift; sourceTree = "<group>"; };
 		FFE93D6A8A4FE245F53C2685AE7C174C /* Pods-RestaurantServerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RestaurantServerUITests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		12C4436E9A9BC6527DB506EA85106468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869239CA22719DCDB065FBFC4C925885 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E7A6A0FD1807424D8E4F4647BD64352 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				57D2EA31C95046B6C2FB8B8A7627896D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73B9F44D01AE87A01FA0F9F0312BBAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FE2ED3EF116B8C7F0CB0455D0758E0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,14 +223,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B047F90CEB1AEF6DE037B98E2BC2E361 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3EA74BE4BB59D171B205C2029915AA8 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E8948BE86210C6E598D3E23561D59A64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,113 +231,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAC8BF8455C3D2F2F00D1B9CF693D08B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AFB18589ED16FED283945C6BFE2CEEA /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		031831B1F1CC28C9FF2C310EB9F80CA2 /* Telegraph */ = {
+		0057EA2124710BD5ED6B3F9C087B19D0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				250B568FD91979F2A345591A85B14AA8 /* Array+Ext.swift */,
-				AB368983CC4C504356EDA094A7A38552 /* Certificate.swift */,
-				D3A0942BBF39FBA8DF60BA8FF31F669A /* CertificateIdentity.swift */,
-				A9EEED4778EE0B956C5E6C7B0194CD1E /* Client+Config.swift */,
-				79F3A4AD8E855A396878FF2309E2AD44 /* Data+Ext.swift */,
-				BF0EEAA7D6358405174B43BB466117E5 /* DateFormatter+Ext.swift */,
-				AACC7A78FAE57D5E9CE30929F78BB8E1 /* DispatchQueue+Ext.swift */,
-				6269C904E4BAF68B8ED425EF8B325C65 /* DispatchTimer.swift */,
-				F1A38B7DC0BD10A7AB3E634510A01A08 /* FileManager+Ext.swift */,
-				69FA7850D79AEB8398534AD97A99089A /* HTTPClient.swift */,
-				4976211F5B55E18BB321E37B03145E53 /* HTTPConfig.swift */,
-				E9EABA02FB156AAFDA911A695998CA1A /* HTTPConnection.swift */,
-				F346057EBDA9C2DA675933342AD93AD2 /* HTTPError.swift */,
-				6E9EDB0822677DE50D3D32026B71EBF4 /* HTTPErrorDefaultHandler.swift */,
-				E364C591A0856C8D53F2D385FEDD6151 /* HTTPErrorHandler.swift */,
-				6378E3685EABA27024E1359890058A44 /* HTTPFileHandler.swift */,
-				3176C4B04512F17BD0D83F7F3F46C3C5 /* HTTPHeader.swift */,
-				C288C94934322B2847345CA27054FBC9 /* HTTPHeader+WebSocket.swift */,
-				A168E95E85E8B54404DC0DC6611CD937 /* HTTPMessage.swift */,
-				282CC94777E70B1898F39E0AC9EFBD83 /* HTTPMessage+WebSocket.swift */,
-				AED86EC69733D18A761EDD6CE9EF877A /* HTTPMethod.swift */,
-				26D3E41931F35511814C76B6970B790E /* HTTPParser.swift */,
-				7AB0355F4B5ACE0E3C715B92CA132D2B /* HTTPRequest.swift */,
-				3B86C873AFF18CFDF5353CE42126F46B /* HTTPRequest+Host.swift */,
-				C75BE87E1D58986C525E233EB14651E0 /* HTTPRequestHandler.swift */,
-				6496A93EA4E9D5A51CB7359463E67AFA /* HTTPResponse.swift */,
-				2B8AD00790F30A94E7BAA25F793628EA /* HTTPRoute.swift */,
-				F00C473B7A910A84ADD606765A7CC97A /* HTTPRouteHandler.swift */,
-				634B2D64F0B3C346AB6F09488F88113B /* HTTPStatus.swift */,
-				77D748FF3FFDA7346A62A734A7A36031 /* HTTPVersion.swift */,
-				8A1DF49CF4182A701A72CFB857C652C5 /* HTTPWebSocketHandler.swift */,
-				56CAA7E1E0FDDD068A3E51ED10A8B61A /* KeychainError.swift */,
-				AAA848CF6ED8EFBEDC3D1EA9CB983938 /* KeychainManager.swift */,
-				0BAFF8B22276978476FFFE64B18C2ED9 /* NSRegularExpression+Ext.swift */,
-				861E6464BB1DBFC3630427909F307E45 /* Server.swift */,
-				3F8A3F934FD87869061968830BCC0C8B /* Server+Config.swift */,
-				5EDC207BC6307C7873373F2FADFCE835 /* Server+Routing.swift */,
-				BBBAE1F45F5270B65ABCCD631111DB88 /* ServerWebSocketDelegate.swift */,
-				9DE7D11FF9410D9665584B72D05AFBE9 /* SHA1.swift */,
-				F199C1411A866AEF3F747483E7485CF5 /* Streams.swift */,
-				B90DA3F941F40B5F46853875C8A778E8 /* String+Ext.swift */,
-				AE54EAFA5DBB36D048D8BA63C1E82AD0 /* TCPConnection.swift */,
-				3737EFAEBFAC05176D5F8AE260B55330 /* TCPListener.swift */,
-				0FDBF6E455DD46EDA5C0FF16230FB852 /* TCPSocket.swift */,
-				F42F4DE0FB96137B0CB465FB5D384DCE /* TLSConfig.swift */,
-				F16F1BB23A43487E5055FE48E1688C5E /* TLSPolicy.swift */,
-				A57A99FD5D45BDB630104B0917DBF04D /* UInt+Ext.swift */,
-				1B8A15DEEAB79F01D82CBC6444B73D60 /* URI.swift */,
-				A36EF8893B40828CFABA33D18E056F94 /* URL+Ext.swift */,
-				33EC843018A33EFE5C33C9CC8C51F50E /* WebSocket.swift */,
-				E3C91F102031369A9C03F65E92B2D7FF /* WebSocketClient.swift */,
-				71A25EF2CB0A9DE5D4FE9F5BFE17F8B5 /* WebSocketConfig.swift */,
-				48F9ED1CA9E9CDA27772D24E06B77874 /* WebSocketConnection.swift */,
-				92E7F28A8C05E776DF57795CDE8E971A /* WebSocketError.swift */,
-				FD92A2DF8B9BFA0113EA08221594EF24 /* WebSocketErrorDefaultHandler.swift */,
-				C4105DD63D137ED8341EB5E2217DFFB2 /* WebSocketErrorHandler.swift */,
-				898DA7B9E1236D9C5ABFF29A02306632 /* WebSocketMessage.swift */,
-				2DE13D4AA642A7F4E8D593B626DDA03E /* WebSocketMessage+Write.swift */,
-				9907FF8E85A2394F18E7D4033DD911BB /* WebSocketMessageDefaultHandler.swift */,
-				800EB0CDA9A41CE493AA8F9DD285E31F /* WebSocketMessageHandler.swift */,
-				D707DCD9EDC868DE94F8E92642B5AE6A /* WebSocketParser.swift */,
-				2A6CAC459C52674578CEBE03AE9A6999 /* Support Files */,
+				878860451FDB328F8A549957CF8574A5 /* Info.plist */,
+				79DBE5ACEB4C13955C56834990245452 /* Telegraph.modulemap */,
+				A75EA0292E9BA82B4632E981A9E388C3 /* Telegraph.xcconfig */,
+				491F7C3033302B28D57DCBB5BE0B6D09 /* Telegraph-dummy.m */,
+				CA5BDCB73E156D1ECB0B380A1BB0F912 /* Telegraph-prefix.pch */,
+				A503D94A2A7A6C9A15976CDB2692FF80 /* Telegraph-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Telegraph";
+			sourceTree = "<group>";
+		};
+		080C3BD7A2F67C3F474CC23ECB16BA14 /* HTTPParserC */ = {
+			isa = PBXGroup;
+			children = (
+				3E103A3C2F8398A6797842D3DA1EC1B6 /* http_parser.c */,
+				9A497F0B28639B6A4C64CE448798E3F5 /* http_parser.h */,
+				B4E9988C5A39CF23ABF3B22095521748 /* Support Files */,
+			);
+			name = HTTPParserC;
+			path = HTTPParserC;
+			sourceTree = "<group>";
+		};
+		0F40B35001A16E885E968E1624832B9A /* Telegraph */ = {
+			isa = PBXGroup;
+			children = (
+				C7605DDD45ACA3BCAF0A88E6C1BFE8C2 /* Array+Ext.swift */,
+				2F94846CF68A7E102A512661F5BB8011 /* Data+Ext.swift */,
+				4EF585E94B2F48044CB23D4095E4CABF /* DataStream.swift */,
+				05804785578AE2AFE6B2F9D4732E7E49 /* DateFormatter+Ext.swift */,
+				77C92B7D9A0966A8A144B3566FF97FEE /* FileManager+Ext.swift */,
+				1987D65AF5832098FB34D60D35A751D2 /* NSRegularExpression+Ext.swift */,
+				D469ACF66BD2866B4D1DFA4E0879EA54 /* String+Ext.swift */,
+				9095C800C2E32915192111AC95C5DC00 /* SynchronizedSet.swift */,
+				EB6747C8B398981E458AE38DBCD85CF4 /* UInt+Ext.swift */,
+				CCDE275FAB3A98930EFE1D2AE414DE6E /* URL+Ext.swift */,
+				0057EA2124710BD5ED6B3F9C087B19D0 /* Support Files */,
 			);
 			name = Telegraph;
 			path = Telegraph;
 			sourceTree = "<group>";
 		};
-		05868D58FF9A6CA784735984A29F0D34 /* Support Files */ = {
+		24AC0FA3DEF2A42161CE15B39429BF23 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A9EDF8BF4550F93C750045F6B5254F6 /* HTTPParserC.modulemap */,
-				2454734F25B6282B6F315041849D3CA1 /* HTTPParserC.xcconfig */,
-				4461002FB8B82AF158526F1D7302748A /* HTTPParserC-dummy.m */,
-				FC089699D4EB4859619FC2E377D629E2 /* HTTPParserC-prefix.pch */,
-				A3D95BADF94F2199B762A63F2E613F18 /* HTTPParserC-umbrella.h */,
-				37E8DBA4F877DF0CDA027F01642466FE /* Info.plist */,
+				2AD4309D09E8EE2B94DC67E576405284 /* CocoaAsyncSocket.modulemap */,
+				7AC46DEF5FAFD294F4457C3B0F76F4D1 /* CocoaAsyncSocket.xcconfig */,
+				0FE68C0320894064E73F0B4228724340 /* CocoaAsyncSocket-dummy.m */,
+				106D73E2575520A09487783CD3905E75 /* CocoaAsyncSocket-prefix.pch */,
+				EBAB92C8586A465972E85DB00FE5348B /* CocoaAsyncSocket-umbrella.h */,
+				B3A8BB73567368403D18C843E2E4CA51 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/HTTPParserC";
-			sourceTree = "<group>";
-		};
-		2A6CAC459C52674578CEBE03AE9A6999 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				779257091DF0CE964E35DFC24400A013 /* Info.plist */,
-				C26F7F500C888CBD4A1C2098D770E3AA /* Telegraph.modulemap */,
-				CF1BE4D4F6BCADE5DC87881BE1379097 /* Telegraph.xcconfig */,
-				2D05ED0F3477C2568973376DB430159D /* Telegraph-dummy.m */,
-				2CBA4EA977B5A5B6A47E5C99D1B70769 /* Telegraph-prefix.pch */,
-				939C0215DC19F776D3DB9AA46A28962E /* Telegraph-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Telegraph";
+			path = "../Target Support Files/CocoaAsyncSocket";
 			sourceTree = "<group>";
 		};
 		2B3ABDF64102C18FEFE2F140AE98FF9D /* OS X */ = {
@@ -440,25 +312,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7C9BCEA26F1F1D317B4AC30C9DE8EEFA /* CocoaAsyncSocket */ = {
-			isa = PBXGroup;
-			children = (
-				CC483B326C505D7866C2017A36537D17 /* GCDAsyncSocket.h */,
-				9A7F2E6C42493CD7A3CE319949B80690 /* GCDAsyncSocket.m */,
-				9C4B53394B210AD71CB2E69C3FA31963 /* GCDAsyncUdpSocket.h */,
-				9C51C84B815D384DCBD90FE9C774B0F4 /* GCDAsyncUdpSocket.m */,
-				90D75E4D7948B279A1CC9310393E9061 /* Support Files */,
-			);
-			name = CocoaAsyncSocket;
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				4987F6E514F7F1A82FA47D888DAC9A40 /* Frameworks */,
-				D1A0A55B962DA3EC755FDC14DE25322F /* Pods */,
+				BA9F31E3E9CA32EEA54D3975947122ED /* Pods */,
 				E2DA5BFF5E6A9F009C0162160D49ECAB /* Products */,
 				BAADFD85B8CBACD3B5C3B7E4C9FC9A5B /* Targets Support Files */,
 			);
@@ -500,29 +359,18 @@
 			path = "Target Support Files/Pods-RestaurantServerUITests";
 			sourceTree = "<group>";
 		};
-		90D75E4D7948B279A1CC9310393E9061 /* Support Files */ = {
+		B4E9988C5A39CF23ABF3B22095521748 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F59C6FFE406229A6C3EFA733C70C414E /* CocoaAsyncSocket.modulemap */,
-				5A99F389676B9383C56C7B8AA65124F5 /* CocoaAsyncSocket.xcconfig */,
-				BD9C8DA4C20C8FD331FFD32FC631F582 /* CocoaAsyncSocket-dummy.m */,
-				2E116D6449C97E74D6248E67545BE3AC /* CocoaAsyncSocket-prefix.pch */,
-				5FC58392CE9A8D5291DFE81CA58B1186 /* CocoaAsyncSocket-umbrella.h */,
-				CA99DDA18A1E3D11782CED04FFD7CF79 /* Info.plist */,
+				8D11A2AA69CD4AC609ED71EE88FE3F9C /* HTTPParserC.modulemap */,
+				953B50BC4F6E768A36E2959704BBBCF9 /* HTTPParserC.xcconfig */,
+				091A9A068FB26DE5148C46A7F3B807B5 /* HTTPParserC-dummy.m */,
+				8F670360D69F051D55D3CBBEF4BB6BAF /* HTTPParserC-prefix.pch */,
+				40499AF14C8240F73956231B1EC38806 /* HTTPParserC-umbrella.h */,
+				939AE70FE334F2989B458BCB6D9B8B1F /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CocoaAsyncSocket";
-			sourceTree = "<group>";
-		};
-		9B82A606DE309AB48D509489F7BB3120 /* HTTPParserC */ = {
-			isa = PBXGroup;
-			children = (
-				AF78C5F493F113E711AF26A63DFF2109 /* http_parser.c */,
-				781AB4D4654B3DFBB6F1A66FFE0929D2 /* http_parser.h */,
-				05868D58FF9A6CA784735984A29F0D34 /* Support Files */,
-			);
-			name = HTTPParserC;
-			path = HTTPParserC;
+			path = "../Target Support Files/HTTPParserC";
 			sourceTree = "<group>";
 		};
 		B54C02A592D0897C51A97FD9FCA7D427 /* Pods-RestaurantServerTests */ = {
@@ -543,6 +391,16 @@
 			path = "Target Support Files/Pods-RestaurantServerTests";
 			sourceTree = "<group>";
 		};
+		BA9F31E3E9CA32EEA54D3975947122ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D587A5D2A39819CF4897E4E59CAAD85F /* CocoaAsyncSocket */,
+				080C3BD7A2F67C3F474CC23ECB16BA14 /* HTTPParserC */,
+				0F40B35001A16E885E968E1624832B9A /* Telegraph */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BAADFD85B8CBACD3B5C3B7E4C9FC9A5B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -553,14 +411,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D1A0A55B962DA3EC755FDC14DE25322F /* Pods */ = {
+		D587A5D2A39819CF4897E4E59CAAD85F /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				7C9BCEA26F1F1D317B4AC30C9DE8EEFA /* CocoaAsyncSocket */,
-				9B82A606DE309AB48D509489F7BB3120 /* HTTPParserC */,
-				031831B1F1CC28C9FF2C310EB9F80CA2 /* Telegraph */,
+				488401BB8528DCB8799BCFC432CDF828 /* GCDAsyncSocket.h */,
+				4191421C9234AD3BC19AD848BE87F620 /* GCDAsyncSocket.m */,
+				6C4F2949621DECD07AC4BED2E3AF485F /* GCDAsyncUdpSocket.h */,
+				93ADD12001B19CF2EED8989588083829 /* GCDAsyncUdpSocket.m */,
+				24AC0FA3DEF2A42161CE15B39429BF23 /* Support Files */,
 			);
-			name = Pods;
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
 		E2DA5BFF5E6A9F009C0162160D49ECAB /* Products */ = {
@@ -598,11 +459,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		950A91341CB60177F89797B0CF3C0303 /* Headers */ = {
+		B67449038D7962E151F844AC3ED72192 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CD1AD0ADD7849A3DBEC30124B9E9C3 /* Pods-RestaurantServerUITests-umbrella.h in Headers */,
+				8FF3ADD7954E5D250C8C1E19F55CCE1E /* Pods-RestaurantServerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C861B6D1689A0A60738CA71B92F87A1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C471CD42B142BA9D6FDEE654F4B90D6E /* Pods-RestaurantServerTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,45 +491,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4E6C33F690CF342CEA31E0E3210CCBC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF0F7FBE25989AE26DCA75E8B54D954D /* Pods-RestaurantServerTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2E70F561CD0D06CEEFF44C6B8FE470AB /* Pods-RestaurantServerTests */ = {
+		94E5742F0ED21CE3F4CC151F1AF7005E /* Pods-RestaurantServerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D06CEBA33D3A9C8969EA7EC620CF7A94 /* Build configuration list for PBXNativeTarget "Pods-RestaurantServerTests" */;
+			buildConfigurationList = A73E7D908B782AF5F19D8EA3A67E8647 /* Build configuration list for PBXNativeTarget "Pods-RestaurantServerUITests" */;
 			buildPhases = (
-				2D325D2BBA0CB5DB95ACF7E7CB1B627E /* Sources */,
-				B047F90CEB1AEF6DE037B98E2BC2E361 /* Frameworks */,
-				E4E6C33F690CF342CEA31E0E3210CCBC /* Headers */,
+				C6CB3A02188EE5117BE661C00A8F28F7 /* Sources */,
+				12C4436E9A9BC6527DB506EA85106468 /* Frameworks */,
+				B67449038D7962E151F844AC3ED72192 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-RestaurantServerTests";
-			productName = "Pods-RestaurantServerTests";
-			productReference = DCBB1F6EC68115665528705A967B414E /* Pods_RestaurantServerTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		62593E954C6986BBCC894ADB8256FCCB /* Pods-RestaurantServerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8E57FD8142FAD4FE393EF700F129FC06 /* Build configuration list for PBXNativeTarget "Pods-RestaurantServerUITests" */;
-			buildPhases = (
-				344CBF0A109DFC433F384849AE8D68CF /* Sources */,
-				EAC8BF8455C3D2F2F00D1B9CF693D08B /* Frameworks */,
-				950A91341CB60177F89797B0CF3C0303 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
+				8DC621B5BA540F3681DDA4CDDE6C70A3 /* PBXTargetDependency */,
 			);
 			name = "Pods-RestaurantServerUITests";
 			productName = "Pods-RestaurantServerUITests";
@@ -671,7 +516,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
 			buildPhases = (
-				FD452A203117FF8DFA26B0711D439093 /* Sources */,
+				363C1C1530B495CCBCE873FC994AD323 /* Sources */,
 				93F869EDFDD36756BA537EB665793449 /* Frameworks */,
 				066131069354C4CC132CAB645145E8F7 /* Headers */,
 			);
@@ -721,11 +566,29 @@
 			productReference = 55810B8D913258A7D6E07C8465871E0D /* HTTPParserC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D0A3224A52E4B6BCB7BE23E3FD9A4CFE /* Pods-RestaurantServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C07B050E2DF11A27CA144B508FAE4C6 /* Build configuration list for PBXNativeTarget "Pods-RestaurantServerTests" */;
+			buildPhases = (
+				F065B329A7A4DB57FE5763A2FF5BADDC /* Sources */,
+				73B9F44D01AE87A01FA0F9F0312BBAAE /* Frameworks */,
+				C861B6D1689A0A60738CA71B92F87A1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA9A8798425D5A2CD58728E6F3C59364 /* PBXTargetDependency */,
+			);
+			name = "Pods-RestaurantServerTests";
+			productName = "Pods-RestaurantServerTests";
+			productReference = DCBB1F6EC68115665528705A967B414E /* Pods_RestaurantServerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		FA56E8A0F53A1F03410BE8E9C90E74D8 /* Telegraph */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B70CBCF9365D5ABB05628D7022391E /* Build configuration list for PBXNativeTarget "Telegraph" */;
 			buildPhases = (
-				539D3354D32E2057D0C47268FAB1D961 /* Sources */,
+				7011B49402A09B9CA59D78F9D325BAEA /* Sources */,
 				A53B0D0F2739164122FE9A61BD011D84 /* Frameworks */,
 				DF297FFE436EE36076F217B1A96413D5 /* Headers */,
 			);
@@ -764,8 +627,8 @@
 				AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */,
 				B4F63B6599F6376EBE6567019B9DA42B /* HTTPParserC */,
 				B3A92A392D098130B5AF09BBEFDCEA29 /* Pods-RestaurantServer */,
-				2E70F561CD0D06CEEFF44C6B8FE470AB /* Pods-RestaurantServerTests */,
-				62593E954C6986BBCC894ADB8256FCCB /* Pods-RestaurantServerUITests */,
+				D0A3224A52E4B6BCB7BE23E3FD9A4CFE /* Pods-RestaurantServerTests */,
+				94E5742F0ED21CE3F4CC151F1AF7005E /* Pods-RestaurantServerUITests */,
 				FA56E8A0F53A1F03410BE8E9C90E74D8 /* Telegraph */,
 			);
 		};
@@ -781,98 +644,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D325D2BBA0CB5DB95ACF7E7CB1B627E /* Sources */ = {
+		363C1C1530B495CCBCE873FC994AD323 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A3C5624F0B5D947EECD45023EAAC80 /* Pods-RestaurantServerTests-dummy.m in Sources */,
+				76D9FBD03A0D72E60DCCC3D5F15D3174 /* CocoaAsyncSocket-dummy.m in Sources */,
+				C72E64802C5BF685D3A6E2E7D82596D7 /* GCDAsyncSocket.m in Sources */,
+				D37A91258103DEFDFAFF55A001D97D02 /* GCDAsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		344CBF0A109DFC433F384849AE8D68CF /* Sources */ = {
+		7011B49402A09B9CA59D78F9D325BAEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08599E7786F23EB0806F19ABA717A46F /* Pods-RestaurantServerUITests-dummy.m in Sources */,
+				5D94ECC775D68C422838734427BEADF9 /* Array+Ext.swift in Sources */,
+				1C6D2058D3C37B4B7BB5E1D975B6706B /* Data+Ext.swift in Sources */,
+				16973F5A569D77A17262A077DFBDD035 /* DataStream.swift in Sources */,
+				09E4466B16421197C982B0664822D37F /* DateFormatter+Ext.swift in Sources */,
+				BA92A1A166BA473303699E867093A4BB /* FileManager+Ext.swift in Sources */,
+				749A84E439FCA555CFC8AB833529BA63 /* NSRegularExpression+Ext.swift in Sources */,
+				5299D36118AA7E9E308447CEF3E7173F /* String+Ext.swift in Sources */,
+				34F6007EAAD878C3AF2D7035BC4ACF10 /* SynchronizedSet.swift in Sources */,
+				37965A5E931C5A9566615EE638694963 /* Telegraph-dummy.m in Sources */,
+				4F6D26DE27C6BDD4B1F21443C2D430BC /* UInt+Ext.swift in Sources */,
+				EF6012040E297BD6CDB51F1C4A4DA5BB /* URL+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		539D3354D32E2057D0C47268FAB1D961 /* Sources */ = {
+		C6CB3A02188EE5117BE661C00A8F28F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4952E2D7A008A93D95AEA6AA7F062023 /* Array+Ext.swift in Sources */,
-				C30FB72C52AD3056E330AAAF06B91F62 /* Certificate.swift in Sources */,
-				93F796DA7BCE72F8CBEEEE714BF9FCE5 /* CertificateIdentity.swift in Sources */,
-				93853D31EC11137E8EA0984B660BF2F0 /* Client+Config.swift in Sources */,
-				E1F18FCF8A3F24AB9FD35E25D36D653C /* Data+Ext.swift in Sources */,
-				1349B202083E7FAA7F96F8F94901B166 /* DateFormatter+Ext.swift in Sources */,
-				E0E3EDE59971CB95FA3BFB325F4B3A50 /* DispatchQueue+Ext.swift in Sources */,
-				1373F95518F554A302EBFE00CFACEAE1 /* DispatchTimer.swift in Sources */,
-				35BD3FCEA0AB58A3E549AECC6EC1EF05 /* FileManager+Ext.swift in Sources */,
-				10FFD57FB5E1BDA90B66E488DB2ED978 /* HTTPClient.swift in Sources */,
-				F7668708CED65A6C61121A2DA93CF56F /* HTTPConfig.swift in Sources */,
-				8DD43538EE7261B53FBB5483E535B829 /* HTTPConnection.swift in Sources */,
-				9552C67FBABD045977D49F4049BC34CF /* HTTPError.swift in Sources */,
-				C917B663A6FBDDA841A22467437B4599 /* HTTPErrorDefaultHandler.swift in Sources */,
-				4666FC3E58A3318EAAFCDBB79475F3F7 /* HTTPErrorHandler.swift in Sources */,
-				72E351339011DD76394B93CA71BDAA65 /* HTTPFileHandler.swift in Sources */,
-				D1DCF3BEFF3530547F10BA7AB4138109 /* HTTPHeader+WebSocket.swift in Sources */,
-				45FA0550755F9D4CBBDAB3F5FFC26858 /* HTTPHeader.swift in Sources */,
-				C83DD6F046740560A316332C83151ED6 /* HTTPMessage+WebSocket.swift in Sources */,
-				DE1FD07C90EC726484724E41F83D1BA3 /* HTTPMessage.swift in Sources */,
-				776AC4AB48B909E908892611D13C9E20 /* HTTPMethod.swift in Sources */,
-				36A736E9D9898578A51081F5088B47B0 /* HTTPParser.swift in Sources */,
-				1FFA86D8FA3726FF295CA1B52553ADD4 /* HTTPRequest+Host.swift in Sources */,
-				2BFFB1E1BF9D1336918D06E299CEEA94 /* HTTPRequest.swift in Sources */,
-				71B4C4FE27CD3B28EDCEEF8FDC3828D7 /* HTTPRequestHandler.swift in Sources */,
-				3994AAEEA98E4804F4017E853FB5A8C5 /* HTTPResponse.swift in Sources */,
-				3F2D6273F254CF19EEAAFE12B518A50C /* HTTPRoute.swift in Sources */,
-				D023AE712D1C225900C9A803892EFFD8 /* HTTPRouteHandler.swift in Sources */,
-				8253AB902A8876ACACCD96E32ED12880 /* HTTPStatus.swift in Sources */,
-				C1C327EB8EB1A53D1DA09F243801BA6D /* HTTPVersion.swift in Sources */,
-				47ECC4A8A1AB6815058C59D0329E8081 /* HTTPWebSocketHandler.swift in Sources */,
-				B579009B8201374E5686BEEEE80CD41A /* KeychainError.swift in Sources */,
-				B40741848D11D6D1A4C77960F07DAB49 /* KeychainManager.swift in Sources */,
-				3A74F70C816CEFC4DB47AC105DC7CAA2 /* NSRegularExpression+Ext.swift in Sources */,
-				A98E2CB1D62F9C80EF1F631F090A8EAD /* Server+Config.swift in Sources */,
-				9CC3D044783F8E1FB6DA45007057CD3A /* Server+Routing.swift in Sources */,
-				C2EB9E2C1D2156567ECA3A3F22A7A30A /* Server.swift in Sources */,
-				BEBC5543390BC9475EFA12E16B008F23 /* ServerWebSocketDelegate.swift in Sources */,
-				27510197A57397F2945614078223E5C9 /* SHA1.swift in Sources */,
-				794C6F3F2AD710E75D0FF3C6CD499D3C /* Streams.swift in Sources */,
-				115307A4AEA117D00AA0E10F0D8DAE16 /* String+Ext.swift in Sources */,
-				E02D34D3A1CBB9AC72A25249CEC3B8FE /* TCPConnection.swift in Sources */,
-				83EFDB6ADF5B81E98E770AA718D12BC2 /* TCPListener.swift in Sources */,
-				02CC1571CF155BF452CA11D7CF3FB688 /* TCPSocket.swift in Sources */,
-				8B3A92ED782CC2721DCC6DA25EE0517F /* Telegraph-dummy.m in Sources */,
-				0EE6757DD1EEE92F4C17A02E18AE520B /* TLSConfig.swift in Sources */,
-				6527FB62BF32C668F47FC200E4D34BFE /* TLSPolicy.swift in Sources */,
-				3C4329F8B0692CD497F22FC48138B9A6 /* UInt+Ext.swift in Sources */,
-				4798F4B538B00C609FCC0F65A93BD6D5 /* URI.swift in Sources */,
-				77041076B1087BEAE8A76113C7171DB7 /* URL+Ext.swift in Sources */,
-				93BE5FB2490C9E016619372677FD86D1 /* WebSocket.swift in Sources */,
-				CC728A28E84E4788A41FD56F39A0157F /* WebSocketClient.swift in Sources */,
-				87935B52DF478EAF60D5CFF5E4CB7FBA /* WebSocketConfig.swift in Sources */,
-				E8ABB0D1AAE80E389A2447739D87E354 /* WebSocketConnection.swift in Sources */,
-				15F06A48BDC22578E7E17A2374285F31 /* WebSocketError.swift in Sources */,
-				7A0EBE855422C7776ED839D4F33E0059 /* WebSocketErrorDefaultHandler.swift in Sources */,
-				543ABFC581D3EFE14567271C79651F2C /* WebSocketErrorHandler.swift in Sources */,
-				ED3BF1F4AAEE7744985DE0F9942256BB /* WebSocketMessage+Write.swift in Sources */,
-				2658B3C866C7567E894383570DF6911E /* WebSocketMessage.swift in Sources */,
-				591E427135AFCA1AB1355F35F6AE993B /* WebSocketMessageDefaultHandler.swift in Sources */,
-				ADFFCE81549D77F5AD3C8F9A07128B86 /* WebSocketMessageHandler.swift in Sources */,
-				1E578BF841828B37D07D577EFF17C614 /* WebSocketParser.swift in Sources */,
+				53B95A0EA233EAC360FE53091AA62BBC /* Pods-RestaurantServerUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD452A203117FF8DFA26B0711D439093 /* Sources */ = {
+		F065B329A7A4DB57FE5763A2FF5BADDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */,
-				8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */,
-				AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */,
+				8147540F667E420441ABB7E6EFB90588 /* Pods-RestaurantServerTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -899,11 +711,23 @@
 			target = FA56E8A0F53A1F03410BE8E9C90E74D8 /* Telegraph */;
 			targetProxy = 9861090B259AFA19CA5F0FB1AE927E20 /* PBXContainerItemProxy */;
 		};
+		8DC621B5BA540F3681DDA4CDDE6C70A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RestaurantServer";
+			target = B3A92A392D098130B5AF09BBEFDCEA29 /* Pods-RestaurantServer */;
+			targetProxy = 3AB18B2F7D200745F5729ADA0A4A0609 /* PBXContainerItemProxy */;
+		};
 		97A31556E177B7F9FF3ACA1F9B72AA41 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HTTPParserC;
 			target = B4F63B6599F6376EBE6567019B9DA42B /* HTTPParserC */;
 			targetProxy = 4B2B8AC6408FB335BA5F70D8529D80DE /* PBXContainerItemProxy */;
+		};
+		BA9A8798425D5A2CD58728E6F3C59364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RestaurantServer";
+			target = B3A92A392D098130B5AF09BBEFDCEA29 /* Pods-RestaurantServer */;
+			targetProxy = 8B198FD0E5AE58567F34DC6AA9499562 /* PBXContainerItemProxy */;
 		};
 		DAC43184681DD46C971052D0989D4001 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -920,40 +744,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E080303AC466B7654C6F8ED4BF32470 /* Debug */ = {
+		277DFE50043FD42E87B7F1F9E4358D2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A99F389676B9383C56C7B8AA65124F5 /* CocoaAsyncSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
-				PRODUCT_NAME = CocoaAsyncSocket;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		13787FCCA8F654B59EAE33492AA41C3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4725A8352AAF2026CF4A4FB3466A420B /* Pods-RestaurantServerUITests.debug.xcconfig */;
+			baseConfigurationReference = A75EA0292E9BA82B4632E981A9E388C3 /* Telegraph.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -967,28 +760,29 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantServerUITests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Telegraph/Telegraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Telegraph/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantServerUITests/Pods-RestaurantServerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RestaurantServerUITests;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Telegraph/Telegraph.modulemap";
+				PRODUCT_MODULE_NAME = Telegraph;
+				PRODUCT_NAME = Telegraph;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		1DC8DF0B851B4B6B1AA139AD0B25624F /* Release */ = {
+		4D2CBA2D0B91AC6CE3E962752F2E073E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B587B2F91AFABA09EDD25AB17CBAB3A6 /* Pods-RestaurantServerTests.release.xcconfig */;
+			baseConfigurationReference = 6FFF524BA4E95361EC70F070BA9D0F94 /* Pods-RestaurantServerTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1011,7 +805,42 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RestaurantServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59DA07EDA5221D27644CB5C04EA3BCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75FF708C27F5956E9534F69CBB061496 /* Pods-RestaurantServerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantServerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantServerUITests/Pods-RestaurantServerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1019,9 +848,115 @@
 			};
 			name = Release;
 		};
-		244558CC607EDB10DFF5259405BCB896 /* Debug */ = {
+		5E5D839CDDDFF662ADFD55C9B8A410CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2454734F25B6282B6F315041849D3CA1 /* HTTPParserC.xcconfig */;
+			baseConfigurationReference = B587B2F91AFABA09EDD25AB17CBAB3A6 /* Pods-RestaurantServerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantServerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantServerTests/Pods-RestaurantServerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FA024B711FB7C5D422A605C25FA7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6291C15007BCC9540A34325ABD8C0C2B /* Pods-RestaurantServer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantServer/Pods-RestaurantServer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CA416CF61A74507E51E8F7097E785DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75EA0292E9BA82B4632E981A9E388C3 /* Telegraph.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Telegraph/Telegraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Telegraph/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Telegraph/Telegraph.modulemap";
+				PRODUCT_MODULE_NAME = Telegraph;
+				PRODUCT_NAME = Telegraph;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8434E748F5CEE33B91C1D6E79F68F006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953B50BC4F6E768A36E2959704BBBCF9 /* HTTPParserC.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1041,6 +976,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				MODULEMAP_FILE = "Target Support Files/HTTPParserC/HTTPParserC.modulemap";
+				PRODUCT_MODULE_NAME = HTTPParserC;
 				PRODUCT_NAME = HTTPParserC;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1051,11 +987,10 @@
 			};
 			name = Debug;
 		};
-		26F4B92F8C1CF3D565ACC875C3B3C9D3 /* Release */ = {
+		89E15F9FC6EB0A833A8C8CEF70DC845D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 318E0E8C00398A805598DB06B996CD09 /* Pods-RestaurantServer.release.xcconfig */;
+			baseConfigurationReference = 7AC46DEF5FAFD294F4457C3B0F76F4D1 /* CocoaAsyncSocket.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1067,62 +1002,57 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantServer/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantServer/Pods-RestaurantServer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RestaurantServer;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2DDFDA94DAD3799C6E881335073FAEF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6291C15007BCC9540A34325ABD8C0C2B /* Pods-RestaurantServer.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantServer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantServer/Pods-RestaurantServer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RestaurantServer;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		3BC3AD91EA83C208BD20B4BA1421CF89 /* Debug */ = {
+		8D62039F0574A397DF4E9AE8F75776A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953B50BC4F6E768A36E2959704BBBCF9 /* HTTPParserC.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/HTTPParserC/HTTPParserC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTTPParserC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/HTTPParserC/HTTPParserC.modulemap";
+				PRODUCT_MODULE_NAME = HTTPParserC;
+				PRODUCT_NAME = HTTPParserC;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93BCC79DC368A7DA26FCF6513B755743 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1154,6 +1084,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1178,17 +1109,17 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		441F3951B6C7B8796CC11E0E12135F6A /* Release */ = {
+		A4B8E97C1F9B7131609C0621447A0786 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75FF708C27F5956E9534F69CBB061496 /* Pods-RestaurantServerUITests.release.xcconfig */;
+			baseConfigurationReference = 318E0E8C00398A805598DB06B996CD09 /* Pods-RestaurantServer.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1201,188 +1132,26 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantServerUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantServer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantServerUITests/Pods-RestaurantServerUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantServer/Pods-RestaurantServer.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RestaurantServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		921EDE2507DBE56A5A0BD2B6320B1BE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A99F389676B9383C56C7B8AA65124F5 /* CocoaAsyncSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
-				PRODUCT_NAME = CocoaAsyncSocket;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9D64744B7B17EA84999DE6BD61850EC7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2454734F25B6282B6F315041849D3CA1 /* HTTPParserC.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/HTTPParserC/HTTPParserC-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HTTPParserC/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				MODULEMAP_FILE = "Target Support Files/HTTPParserC/HTTPParserC.modulemap";
-				PRODUCT_NAME = HTTPParserC;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A27E11679248B913FBC0DFDECD05988B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FFF524BA4E95361EC70F070BA9D0F94 /* Pods-RestaurantServerTests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantServerTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantServerTests/Pods-RestaurantServerTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RestaurantServerTests;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A9AF830974533876E18FDC9F756479FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF1BE4D4F6BCADE5DC87881BE1379097 /* Telegraph.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Telegraph/Telegraph-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Telegraph/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Telegraph/Telegraph.modulemap";
-				PRODUCT_NAME = Telegraph;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B04E52509A0F0956969C24235E9AAF2E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF1BE4D4F6BCADE5DC87881BE1379097 /* Telegraph.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Telegraph/Telegraph-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Telegraph/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Telegraph/Telegraph.modulemap";
-				PRODUCT_NAME = Telegraph;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		BFC9B05991EE41A604021F5FC4D2AE96 /* Release */ = {
+		D1E193C2924C5ADCC07F3637C3202DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1414,6 +1183,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1434,9 +1204,75 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F5BE6D93488C6CCEDE7A9086424AA5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4725A8352AAF2026CF4A4FB3466A420B /* Pods-RestaurantServerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-RestaurantServerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-RestaurantServerUITests/Pods-RestaurantServerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB9D4A544A502F168C936F3CD0E5AE95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC46DEF5FAFD294F4457C3B0F76F4D1 /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1446,8 +1282,8 @@
 		13B70CBCF9365D5ABB05628D7022391E /* Build configuration list for PBXNativeTarget "Telegraph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9AF830974533876E18FDC9F756479FF /* Debug */,
-				B04E52509A0F0956969C24235E9AAF2E /* Release */,
+				7CA416CF61A74507E51E8F7097E785DA /* Debug */,
+				277DFE50043FD42E87B7F1F9E4358D2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1455,8 +1291,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BC3AD91EA83C208BD20B4BA1421CF89 /* Debug */,
-				BFC9B05991EE41A604021F5FC4D2AE96 /* Release */,
+				93BCC79DC368A7DA26FCF6513B755743 /* Debug */,
+				D1E193C2924C5ADCC07F3637C3202DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1464,8 +1300,8 @@
 		61FFB2C901CAE0320671DFBF97235897 /* Build configuration list for PBXNativeTarget "HTTPParserC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				244558CC607EDB10DFF5259405BCB896 /* Debug */,
-				9D64744B7B17EA84999DE6BD61850EC7 /* Release */,
+				8434E748F5CEE33B91C1D6E79F68F006 /* Debug */,
+				8D62039F0574A397DF4E9AE8F75776A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1473,26 +1309,26 @@
 		6CCFFE8B1DD55508246892C5ED76114C /* Build configuration list for PBXNativeTarget "Pods-RestaurantServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DDFDA94DAD3799C6E881335073FAEF7 /* Debug */,
-				26F4B92F8C1CF3D565ACC875C3B3C9D3 /* Release */,
+				63FA024B711FB7C5D422A605C25FA7CC /* Debug */,
+				A4B8E97C1F9B7131609C0621447A0786 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E57FD8142FAD4FE393EF700F129FC06 /* Build configuration list for PBXNativeTarget "Pods-RestaurantServerUITests" */ = {
+		9C07B050E2DF11A27CA144B508FAE4C6 /* Build configuration list for PBXNativeTarget "Pods-RestaurantServerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13787FCCA8F654B59EAE33492AA41C3C /* Debug */,
-				441F3951B6C7B8796CC11E0E12135F6A /* Release */,
+				4D2CBA2D0B91AC6CE3E962752F2E073E /* Debug */,
+				5E5D839CDDDFF662ADFD55C9B8A410CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D06CEBA33D3A9C8969EA7EC620CF7A94 /* Build configuration list for PBXNativeTarget "Pods-RestaurantServerTests" */ = {
+		A73E7D908B782AF5F19D8EA3A67E8647 /* Build configuration list for PBXNativeTarget "Pods-RestaurantServerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A27E11679248B913FBC0DFDECD05988B /* Debug */,
-				1DC8DF0B851B4B6B1AA139AD0B25624F /* Release */,
+				F5BE6D93488C6CCEDE7A9086424AA5E3 /* Debug */,
+				59DA07EDA5221D27644CB5C04EA3BCB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1500,8 +1336,8 @@
 		F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E080303AC466B7654C6F8ED4BF32470 /* Debug */,
-				921EDE2507DBE56A5A0BD2B6320B1BE3 /* Release */,
+				89E15F9FC6EB0A833A8C8CEF70DC845D /* Debug */,
+				FB9D4A544A502F168C936F3CD0E5AE95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
