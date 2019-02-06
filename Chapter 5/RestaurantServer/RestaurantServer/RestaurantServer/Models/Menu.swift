@@ -13,7 +13,7 @@ struct Menu: Codable {
     var description : String = ""
     var price : Double = 0.0
     var category : String = ""
-    var imageURL : String = ""
+    var image_url : String = ""
     
     func printMenuItem() -> String {
         var result = ""
@@ -22,7 +22,7 @@ struct Menu: Codable {
         result += formatItem(itemkey : "description", item : description, last : false)
         result += formatItem(itemkey : "price", item : price, last : false)
         result += formatItem(itemkey : "category", item : category, last : false)
-        result += formatItem(itemkey : "imageURL", item : imageURL, last : true)
+        result += formatItem(itemkey : "image_url", item : image_url, last : true)
 
         //result = "{\n" + result + "\n}"
         return result

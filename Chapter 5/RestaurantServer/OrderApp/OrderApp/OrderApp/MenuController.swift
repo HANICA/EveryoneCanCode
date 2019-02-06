@@ -4,7 +4,7 @@ class MenuController {
     
     static let shared = MenuController()
     
-    let baseURL = URL(string: "http://macbook-pro.local:8090/")!
+    let baseURL = URL(string: "http://localhost:8090/")!
     // Default server address is: http://localhost:8090/
     // In case you want to test with a real device change the URL
     // since otherwise you can't reach it since localhost assumes

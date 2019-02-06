@@ -1,6 +1,6 @@
 # EveryoneCanCode - Guided Project / Restaurant
 
-For the Restaurant project in Chapter 5 students need a small server app (see §5.7). 
+For the Restaurant project in Chapter 5 students need a small server app (see §5.7).
 We ran into problems with the orginal app so we decided to create a macOS app using Swift 4 ourselves. There is a Python-based server replacement but the problem is that one needs to at least have a little Python experience, also the Everyone Can Code book shows screenshots of the app as is and we tried to keep our app close to it.<br>
 <br>
 Some info on how the app works (intended for Swift Teachers):
@@ -32,7 +32,7 @@ V1.0.2 is in-line with the OrderApp from the Teachers' materials, we have made s
 crude (especially the images part).
 Version 1.0.2 does not provide any images (although one could add image URL's to the menu.json file for menu items). For now we have not implemented ordering either.
 
-V1.0.3 Has implemented the order functionality as well. Ordering now gives back an estimate of the preparation time (see the magical function for that in the ServerApp), would be better to have an estimated preparation time per menu item but Apple did not provide it, so this was left-out as well. 
+V1.0.3 Has implemented the order functionality as well. Ordering now gives back an estimate of the preparation time (see the magical function for that in the ServerApp), would be better to have an estimated preparation time per menu item but Apple did not provide it, so this was left-out as well.
 
 V1.0.4 Images now work! They are loaded from the Application Bundle (for now).
 The update will allow you to load images using:
@@ -40,3 +40,6 @@ http://localhost:8090/images/
 So e.g. for item 8, 8_Pizza_Vesuvio.png in the menu.json file will allow you to load http://localhost:8090/images/8_Pizza_Vesuvio.png
 
 V1.0.5 If you add a folder called "images" to your Application Support folder, the server will serve images from there instead of the bundle. If the images folder is found in your Application Support folder this also enables the "Open Image Directory" button from the interface. This allows more novice Swift users to easily modify images etc. without the need to dive into the RestaurantServer application bundle themselves. All images are "686 x 334" (for now).
+
+V1.0.6 Fixed the imageURL vs image_url discrepancy.<br>
+Note: import Foundation if you run into the URL is not codable issue in your model.

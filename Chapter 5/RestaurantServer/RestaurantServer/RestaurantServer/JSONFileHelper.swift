@@ -222,7 +222,7 @@ func parseJsonMenu(anyObj:AnyObject) -> Array<Menu>{
             m.description  =  (json["description"]  as AnyObject? as? String) ?? ""
             m.price  =  (json["price"]  as AnyObject? as? Double) ?? 0.0
             m.category  =  (json["category"]  as AnyObject? as? String) ?? ""
-            m.imageURL  =  (json["image_url"]  as AnyObject? as? String) ?? ""
+            m.image_url  =  (json["image_url"]  as AnyObject? as? String) ?? ""
             
             list.append(m)
         }

@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-// import Telegraph
+import Telegraph
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {

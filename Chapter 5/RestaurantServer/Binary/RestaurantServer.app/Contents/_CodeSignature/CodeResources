@@ -50,31 +50,35 @@
 		</data>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		uLBNVRpt63zyuhaU/uOBQ4DjNvY=
+		JWVOFXCAscDjrATf+lX+En27yg4=
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		4YOplo3O2jD0DW7xR+wWMKcw7DM=
+		9gtH0/3C05Yy8YYYEsWOpoalHw0=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		aim7iRuzlZbyb3WUcRTwJlRCke4=
+		eHFe0z8NA3ekItbySbIjHf2rjcE=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		46hLBUrOT+LkNFxFEBUMZ7iz/xE=
+		FisuJDMPzvQidzybcA/53vvmp1E=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<data>
-		dGdnRf9PEQtGbtnWRcxWxwdwSUc=
+		gQQ0AM4TQNqJ1CO14TGv8QTiRE8=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		57/FtrS+MfdmbjuNpqM1cdVEtjQ=
+		F/52ToZO6noN1w3ij3gVpd2NdTE=
+		</data>
+		<key>Resources/index.html</key>
+		<data>
+		OtJQc7ptpAnFG7kgTNaDFDvpsO0=
 		</data>
 		<key>Resources/libswiftRemoteMirror.dylib</key>
 		<data>
-		LdXExC/yGa2r0w+H7AyBPziE5sc=
+		1uY4m6NnbbFKv6vB+SsQ6AwcFEU=
 		</data>
 		<key>Resources/menu.json</key>
 		<data>
@@ -91,7 +95,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			/hHPSIXqRqseasYdhbv66kKU7bI=
+			9FJyec8+FNJg4NwVhH637kPeH74=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.CocoaAsyncSocket" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -100,7 +104,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			w3Ss15D1TvJSo6+e7rTI9NMS1cA=
+			gosLGxLQeFxI6SfmxH/9Fu0g4DQ=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.HTTPParserC" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -109,7 +113,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Vw/hMK+Q5K5f8xwS8rCyeVDKES0=
+			vabL4a0g82X4xTSKBe3Qp5/L9Hg=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.cocoapods.Telegraph" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -118,7 +122,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			fW97j26D85YjaJLAx0M7Ek+81Pg=
+			1iODARxH+Bk+fJ5cCBWqQOKfpkU=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -127,7 +131,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			SledOWT1YGwCW1AvUm1G0kbhiA0=
+			KPqtuDrgXg4iqV4UptTN55odELY=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -136,7 +140,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			zAdoMM8ThbZm91Ky5ugvnZJuLW4=
+			f+jgwpbsKYGjwwyjhuj54qwnYjU=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreData" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -145,7 +149,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			5fsKjPRaa733cNXFU0XTCi8kS1w=
+			j81VJcvYufCXl/u8AOH3zyelqhM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreFoundation" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -154,7 +158,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			8vKgae8QfBB5exClcUfQPDaF3rk=
+			J7T7qH5VaBNrkbDwi4KvN+byDFo=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -163,7 +167,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			vgeIpbDwYDzjbV6A+ul8JbGtjAY=
+			j7Ubyz5fjxTt3+r+re1XGwLWR6Q=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -172,7 +176,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			fH8o/gfkDu5IMku0k3J9h5YC6f8=
+			+sZWX5TRSFp/UYZTc3ZZaUvL3Ew=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -181,7 +185,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			+pXXysMrsm4hDyCcAOejtAGCkNw=
+			hRSxhjAEoRzmgF6IDKSSyJAY808=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -190,7 +194,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			rZG7OOcujQVtRd7sEyKHeCJoroo=
+			Bv42ZWr/QNatY/iEOgveyg1liYY=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -199,7 +203,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			dz77t5uWNiTG2BTOZwNclCwH0rk=
+			n2FhzWGA6KNKx0PDPDSGOHmGFaE=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftIOKit" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -208,7 +212,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			qesBcZDTQp+DVch/8/rlT1lGhS0=
+			l+XhD+pqzPf7yf/WwrP8qTSMFHs=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftMetal" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -217,7 +221,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			01EBhG4UlCS2Vs5jyr1NTgExgSk=
+			QmuaRAcLJ2Gpn+pQBCAAMPys7rg=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -226,16 +230,25 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			NE8cNuKQLIC4b2AEz+TAss60umg=
+			0EKSwVNMvArxpGcL45xnIOgcWHE=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftQuartzCore" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			ZvnuTb16rSUOLnMFt4L2b5A2OJ4=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftSwiftOnoneSupport" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftXPC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			E7nngCSk54liFMyFrzvdibqY3Ik=
+			QDoxMPTgpfYzzML+m2RNg6rxBhw=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftXPC" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -244,7 +257,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			UuCCSoOUxO/MrOF2zYRhBaB4sdA=
+			PhQ0zy8FiYX3eYw76uSvk+AL3+E=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftos" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Johan Korten (AQZ3VY6KLZ)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -330,49 +343,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MAxE/5Bi3aA+serbWHTGxNp8tJrnbfinuX3aar9duwU=
+			65ZyIbhRD/asNifMVBA0N6xAtGo820xzDPsZ1s2E0Uw=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QHd+BWsQywG0+9P3EMqGaQqCJnmdhGFKmMLSaAqf+XI=
+			p6XxrSSrHIvY6eEmDg/2yW/bM2OLb8U7/sVz3Zd40A4=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cEGCJusqzHKhKogsC9CmkF4hPl1a7ssixqDBMnkBpzg=
+			0bvr1piVGJhyAq4cHG92Ct6tI3PmDZwHAXlG7dgdR9c=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i4YuPT0jcx/3rnMvSQbn4lxjt3AGWuFMSYV4b4BXMQQ=
+			pdwSKVyITQhvej9hyQAs4m9J/HmnVLFf67E83M3MV94=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F4MrMH5Fs8mASkkb+9deAkNEij8ojK95xIoX98zf2wo=
+			UzNsyo9BdBdmEQqlsOpreku8cnbn56ouuWjl/wz2ElY=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NPKAmHSqxVtE1nLQb7cVrAsASgs3Z2s/+YWnWNJZzuI=
+			uBnIr/S7hkYn3rr4JYNEa137e1fz7zx4iLu6TTAc0PU=
+			</data>
+		</dict>
+		<key>Resources/index.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qMrdcRJlVzNpQpiMpXhvIcwegUwU3V1ueoDD7lsNyx8=
 			</data>
 		</dict>
 		<key>Resources/libswiftRemoteMirror.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1foNDnM3PUkivBntIxeSItNKfl44X82yH3ZLokQNMaU=
+			IK6jHZcKpLIxX51C/uueWgjnaTU5qROHPMgc1kWBDro=
 			</data>
 		</dict>
 		<key>Resources/menu.json</key>
